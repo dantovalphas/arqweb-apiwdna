@@ -1,0 +1,158 @@
+{
+  "description": "CQI NEW",
+  "type": "pieGraphsMap",
+  "categories": ["2019-02-21", "2019-02-22", "2019-02-23"],
+  "values": [
+    {
+      "id": "KPI2#|",
+      "type": "CIRCLE_GRAPH",
+      "info": {
+        "drillDownId": "ddDateTablecqi_60"
+      },
+      "domain": "RAN",
+      "title": "NATIONAL",
+      "label": "3G",
+      "wtype": "CQI",
+      "values": [
+        {
+          "value": 88.5,
+          "main_value": "88.7%",
+          "display": "PASSED",
+          "up_left": "ON AIR",
+          "up_center": "ON",
+          "up_right": "OFF",
+          "down_left": 3572,
+          "down_center": 2266,
+          "down_right": 2797
+        },
+        {
+          "value": 87.7,
+          "main_value": "88.8%",
+          "display": "NOT PASSED",
+          "up_left": "ON AIR",
+          "up_center": "ON",
+          "up_right": "OFF",
+          "down_left": 3279,
+          "down_center": 2196,
+          "down_right": 3654
+        },
+        {
+          "value": 88.7,
+          "main_value": "86%",
+          "display": "PASSED",
+          "up_left": "ON AIR",
+          "up_center": "ON",
+          "up_right": "OFF",
+          "down_left": 3193,
+          "down_center": 3600,
+          "down_right": 2217
+        }
+      ]
+    },
+    {
+      "id": "KPI7#|",
+      "type": "COLUMN_GRAPH",
+      "info": { "drillDownId": "ddDateTablecqi_60" },
+      "values": [
+        { "id": "SERIE_ID", "values": [199, 30, 44] },
+        { "id": "SERIE2_ID", "values": [2, 220, 33] }
+      ]
+    },
+    {
+      "id": "KPI0#|",
+      "type": "BARS_GRAPH",
+      "values": [
+        {
+          "id": "Acc CS (%)",
+          "info": {
+            "drillDownId": "ddDateTablecqi_60"
+          },
+          "values": [
+            {
+              "value": 94.1,
+              "severity_value": 29874,
+              "display": "95.1"
+            },
+            {
+              "value": 96.7,
+              "severity_value": 18683,
+              "display": "95.9"
+            },
+            {
+              "value": 88,
+              "severity_value": 19698,
+              "display": "95.1"
+            }
+          ]
+        },
+        {
+          "id": "Acc PS (%)",
+          "info": {
+            "drillDownId": "ddDateTablecqi_60"
+          },
+          "values": [
+            {
+              "value": 89.4,
+              "severity_value": 4119,
+              "display": "89.5"
+            },
+            {
+              "value": 97.3,
+              "severity_value": 3748,
+              "display": "91.2"
+            },
+            {
+              "value": 90.1,
+              "severity_value": 21483,
+              "display": "98.1"
+            }
+          ]
+        },
+        {
+          "id": "Ret CS (%)",
+          "info": {
+            "drillDownId": "ddDateTablecqi_60"
+          },
+          "values": [
+            {
+              "value": 91.3,
+              "severity_value": 10848,
+              "display": "92"
+            },
+            {
+              "value": 92.5,
+              "severity_value": 24870,
+              "display": "88"
+            },
+            {
+              "value": 87.9,
+              "severity_value": 22765,
+              "display": "90.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KPI5#|",
+      "type": "MAP_GRAPH",
+      "info": {
+        "drillDownId": "ddDateTablecqi_60"
+      },
+      "values": [
+        {
+          "data": [
+            { "name": "NORTH", "display": "123", "value": 88.5 },
+            { "name": "PACIFIC", "display": "SDS", "value": 44.5 }
+          ]
+        },
+        {
+          "data": [
+            { "name": "NORTH", "display": "123", "value": 88.5 },
+            { "name": "PACIFIC", "display": "SDS", "value": 44.5 }
+          ]
+        }
+      ]
+    }
+  ]
+}

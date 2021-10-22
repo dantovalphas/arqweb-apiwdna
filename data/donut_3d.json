@@ -1,0 +1,13 @@
+{
+  "id": "KPI#",
+  "type": "DONUT_3D_GRAPH",
+  "info": {
+    "drillDown": "ddDateTablecqi_60",
+    "dashboardName": "PROFITABLE_AND_UNPROFITABLE_SITES"
+  },
+  "name": "RENTABILIDAD",
+  "values": [
+    ["RENTABLE", 60],
+    ["NO RENTABLE", 50]
+  ]
+}

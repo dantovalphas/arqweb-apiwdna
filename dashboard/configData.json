@@ -1,0 +1,113 @@
+{
+  "title": "Dashboard de calidad rentable",
+  "columnDefinitions": "4",
+  "rowDefinitions": "3",
+  "rowHeight": "300",
+  "width": "*",
+  "items": [
+    {
+      "widget": "SYNC_CHART",
+      "sourceData": "QUALITY_RENTABILITY_DATA",
+      "zIndex": 0,
+      "itemsConfig": [
+        {
+          "id": "K#PROFITABILITY||REGION_6",
+          "type": "line",
+          "zIndex": "0",
+          "fillColor": "#154"
+        },
+        {
+          "id": "K#PROFITABILITY||REGION_8",
+          "type": "area",
+          "zIndex": "1",
+          "fillColor": "#159"
+        }
+      ],
+      "instanceConfig": [
+        {
+          "id": "K#PROFITABILITY",
+          "title": {
+            "type": "text",
+            "text": "Rentabilidad Total",
+            "style": {
+              "color": "#fff"
+            }
+          },
+          "description": {
+            "text": "Resumen de rentabilidad",
+            "style": {
+              "color": "#fff"
+            }
+          }
+        },
+        {
+          "id": "K#TOTAL_EXPENSES",
+          "title": {
+            "type": "text",
+            "text": "Gastos Totales",
+            "style": {
+              "color": "#fff"
+            }
+          },
+          "description": {
+            "text": "Resumen de gastos totales",
+            "style": {
+              "color": "#fff"
+            }
+          }
+        },
+        {
+          "id": "K#TOTAL_INCOMES",
+          "title": {
+            "type": "text",
+            "text": "Ingresos Totales",
+            "style": {
+              "color": "#fff"
+            }
+          },
+          "description": {
+            "text": "Resumen de ingresos totales",
+            "style": {
+              "color": "#fff"
+            }
+          }
+        }
+      ],
+      "dashboardConfig": {
+        "column": 1,
+        "row": 0,
+        "columnSpan": 3,
+        "rowSpan": 2,
+        "interaction": false
+      }
+    },
+    {
+      "widget": "PIE_GRAPH_MAP",
+      "sourceData": "QUALITY_RENTABILITY_BY_DATE",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 0,
+        "row": 0,
+        "columnSpan": 1,
+        "rowSpan": 2,
+        "interaction": false
+      }
+    },
+    {
+      "widget": "DONUT_3D_GRAPH",
+      "sourceData": "RENTABILITY_COMPARATION",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 0,
+        "row": 2,
+        "columnSpan": 1,
+        "rowSpan": 1,
+        "interaction": true
+      }
+    }
+  ]
+}

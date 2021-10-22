@@ -1,0 +1,65 @@
+{
+  "title": "Sitios rentables y no rentables",
+  "columnDefinitions": "4",
+  "rowDefinitions": "3",
+  "rowHeight": "300",
+  "width": "*",
+  "items": [
+    {
+      "widget": "SUNBURST_GRAPH",
+      "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 0,
+        "row": 0,
+        "columnSpan": 1,
+        "rowSpan": 1,
+        "interaction": false
+      }
+    },
+    {
+      "widget": "SUNBURST_GRAPH",
+      "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 1,
+        "row": 0,
+        "columnSpan": 1,
+        "rowSpan": 1,
+        "interaction": false
+      }
+    },
+    {
+      "widget": "SUNBURST_GRAPH",
+      "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 2,
+        "row": 0,
+        "columnSpan": 1,
+        "rowSpan": 1,
+        "interaction": false
+      }
+    },
+    {
+      "widget": "SUNBURST_GRAPH",
+      "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 3,
+        "row": 0,
+        "columnSpan": 1,
+        "rowSpan": 1,
+        "interaction": false
+      }
+    }
+  ]
+}

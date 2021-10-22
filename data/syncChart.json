@@ -1,0 +1,93 @@
+{
+  "description": "Calidad Rentable Ingreso Total, Gasto Total y Rentabilidad Total",
+  "xAxisFormat": "datetime",
+  "type": "graph",
+  "timeGranularity": "month",
+  "dateTimeFormat": "dd-MM-YYYY",
+  "xAxis": [
+    "19-01-2021",
+    "17-02-2021",
+    "11-03-2021",
+    "15-04-2021",
+    "03-05-2021",
+    "02-06-2021",
+    "07-07-2021",
+    "02-08-2021",
+    "09-09-2021",
+    "03-10-2021",
+    "07-11-2021",
+    "26-12-2021"
+  ],
+  "yAxis": [
+    {
+      "id": "K#PROFITABILITY||REGION_6",
+      "info": {
+        "vendorId": 8,
+        "regionId": 6,
+        "groupLevel": "RNC_ID",
+        "filter": ["a", "b"],
+        "kpi": "K#PROFITABILITY"
+      },
+      "values": [
+        5945.29, 3787.54, 7615.48, 4125.5, 1414.95, 2534.34, 6895.84, 8343.93,
+        4276.54, 7250.77, 6589.7, 3148.33
+      ]
+    },
+    {
+      "id": "K#TOTAL_EXPENSES||REGION_3",
+      "info": {
+        "vendorId": 6,
+        "regionId": 3,
+        "groupLevel": "RNC_ID",
+        "filter": ["a", "b"],
+        "kpi": "K#TOTAL_EXPENSES"
+      },
+      "values": [
+        4002.37, 6476.66, 1164.07, 6061.64, 1713.59, 9145.52, 5968.44, 7152.8,
+        5812.44, 2319.93, 2790.81, 2358.85
+      ]
+    },
+    {
+      "id": "K#TOTAL_INCOMES||REGION_2",
+      "info": {
+        "vendorId": 1,
+        "regionId": 2,
+        "groupLevel": "RNC_ID",
+        "filter": ["a", "b"],
+        "kpi": "K#TOTAL_INCOMES"
+      },
+      "values": [
+        8641.33, 3199.87, 7531.68, 4227.32, 3085.14, 6337.4, 6249.92, 8032.94,
+        9759.21, 4675.26, 9158.49, 6047.02
+      ]
+    },
+    {
+      "id": "K#TOTAL_INCOMES||REGION_6",
+      "info": {
+        "vendorId": 3,
+        "regionId": 6,
+        "groupLevel": "RNC_ID",
+        "filter": ["a", "b"],
+        "kpi": "K#TOTAL_INCOMES"
+      },
+      "values": [
+        3036.52, 7338.68, 3209.67, 9740.9, 9115.57, 1250.93, 2634.27, 2863.22,
+        8227.22, 6347.28, 4374.99, 6932.89
+      ]
+    },
+    {
+      "id": "K#TOTAL_EXPENSES||REGION_1",
+      "info": {
+        "vendorId": 8,
+        "regionId": 1,
+        "groupLevel": "RNC_ID",
+        "filter": ["a", "b"],
+        "kpi": "K#TOTAL_EXPENSES"
+      },
+      "values": [
+        6969.74, 8433.84, 8019.09, 2290.57, 6893.35, 3909.49, 7779.85, 4544.19,
+        3792.2, 5973.87, 5960.49, 3503.16
+      ]
+    }
+  ]
+}

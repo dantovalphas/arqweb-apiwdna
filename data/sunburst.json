@@ -1,0 +1,70 @@
+{
+  "id": "KPI#",
+  "type": "SUNBURST_GRAPH",
+  "info": {
+    "drillDown": "ddDateTablecqi_60"
+  },
+  "values": [
+    {
+      "id": "MAIN",
+      "parent": "",
+      "name": "&nbsp;",
+      "value": null
+    },
+    {
+      "id": "INDOOR",
+      "parent": "MAIN",
+      "name": "INDOOR",
+      "value": null
+    },
+
+    {
+      "id": "HYBRID",
+      "parent": "MAIN",
+      "name": "HYBRID",
+      "value": null
+    },
+    {
+      "id": "OUTDOOR",
+      "parent": "MAIN",
+      "name": "OUTDOOR",
+      "value": null
+    },
+    {
+      "id": "INDOOR_NO_RENTABLE",
+      "parent": "INDOOR",
+      "name": "NO RENTABLE",
+      "value": 50
+    },
+    {
+      "id": "INDOOR_RENTABLE",
+      "parent": "INDOOR",
+      "name": "RENTABLE",
+      "value": 50
+    },
+    {
+      "id": "OUTDOOR_NO_RENTABLE",
+      "parent": "OUTDOOR",
+      "name": "NO RENTABLE",
+      "value": 50
+    },
+    {
+      "id": "OUTDOOR_RENTABLE",
+      "parent": "OUTDOOR",
+      "name": "RENTABLE",
+      "value": 50
+    },
+    {
+      "id": "HYBRID_NO_RENTABLE",
+      "parent": "HYBRID",
+      "name": "NO RENTABLE",
+      "value": 50
+    },
+    {
+      "id": "HYBRID_RENTABLE",
+      "parent": "HYBRID",
+      "name": "RENTABLE",
+      "value": 50
+    }
+  ]
+}
