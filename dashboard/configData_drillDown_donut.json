@@ -4,6 +4,7 @@
   "rowDefinitions": "3",
   "rowHeight": "300",
   "width": "*",
+  "sidebar": false,
   "items": [
     {
       "widget": "SUNBURST_GRAPH",
