@@ -12,63 +12,213 @@
       "zIndex": 0,
       "itemsConfig": [
         {
-          "id": "K#PROFITABILITY||REGION_6",
-          "type": "line",
-          "zIndex": "0",
-          "fillColor": "#154"
+          "id": "K#PROFITABILITY||REGION_0",
+          "fillColor": "#670",
+          "fillOpacity": 0.6,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
         },
         {
-          "id": "K#PROFITABILITY||REGION_8",
-          "type": "area",
-          "zIndex": "1",
-          "fillColor": "#159"
+          "id": "K#PROFITABILITY||REGION_1",
+          "fillColor": "#152",
+          "fillOpacity": 0.1,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
+        },
+        {
+          "id": "K#PROFITABILITY||REGION_2",
+          "fillColor": "#804",
+          "fillOpacity": 0.8,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
+        },
+        {
+          "id": "K#TOTAL_EXPENSES||REGION_0",
+          "fillColor": "#828",
+          "fillOpacity": 0.7,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
+        },
+        {
+          "id": "K#TOTAL_EXPENSES||REGION_1",
+          "fillColor": "#701",
+          "fillOpacity": 0.9,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
+        },
+        {
+          "id": "K#TOTAL_EXPENSES||REGION_2",
+          "fillColor": "#639",
+          "fillOpacity": 0.1,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
+        },
+        {
+          "id": "K#TOTAL_INCOMES||REGION_0",
+          "fillColor": "#610",
+          "fillOpacity": 0.1,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
+        },
+        {
+          "id": "K#TOTAL_INCOMES||REGION_1",
+          "fillColor": "#941",
+          "fillOpacity": 0.9,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
+        },
+        {
+          "id": "K#TOTAL_INCOMES||REGION_2",
+          "fillColor": "#156",
+          "fillOpacity": 0.7,
+          "tooltip": {
+            "suffix": "",
+            "prefix": ""
+          }
         }
       ],
       "instanceConfig": [
         {
-          "id": "K#PROFITABILITY",
+          "id": "K#TOTAL_INCOMES",
+          "type": "area",
+          "legend": {
+            "enabled": false
+          },
+          "xAxisFormat": "- {value}",
+          "yAxisTitle": "",
           "title": {
             "type": "text",
-            "text": "Rentabilidad Total",
+            "text": "Ingresos Totales",
             "style": {
-              "color": "#fff"
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "18px"
             }
           },
           "description": {
-            "text": "Resumen de rentabilidad",
+            "type": "text",
+            "text": "Resumen de ingresos totales",
             "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "18px"
+            }
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "valueDecimals": "2",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
               "color": "#fff"
             }
           }
         },
         {
           "id": "K#TOTAL_EXPENSES",
+          "type": "area",
+          "legend": {
+            "enabled": false
+          },
+          "xAxisFormat": "- {value}",
+          "yAxisTitle": "",
           "title": {
             "type": "text",
             "text": "Gastos Totales",
             "style": {
-              "color": "#fff"
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "18px"
             }
           },
           "description": {
+            "type": "text",
             "text": "Resumen de gastos totales",
             "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "18px"
+            }
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "valueDecimals": "2",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
               "color": "#fff"
             }
           }
         },
         {
-          "id": "K#TOTAL_INCOMES",
+          "id": "K#PROFITABILITY",
+          "type": "line",
+          "legend": {
+            "enabled": false
+          },
+          "xAxisFormat": "- {value}",
+          "yAxisTitle": "",
           "title": {
             "type": "text",
-            "text": "Ingresos Totales",
+            "text": "Rentabilidad Total",
             "style": {
-              "color": "#fff"
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "18px"
             }
           },
           "description": {
-            "text": "Resumen de ingresos totales",
+            "type": "text",
+            "text": "Resumen de rentabilidad",
             "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "18px"
+            }
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "valueDecimals": "2",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
               "color": "#fff"
             }
           }
