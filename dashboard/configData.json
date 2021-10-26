@@ -230,7 +230,8 @@
         "row": 0,
         "columnSpan": 9,
         "rowSpan": 4,
-        "interaction": false
+        "interaction": false,
+        "resize": true
       }
     },
     {
@@ -245,7 +246,8 @@
         "row": 0,
         "columnSpan": 4,
         "rowSpan": 4,
-        "interaction": false
+        "interaction": false,
+        "resize": false
       }
     },
     {
@@ -258,9 +260,10 @@
       "dashboardConfig": {
         "column": 0,
         "row": 2,
-        "columnSpan": 2,
+        "columnSpan": 1,
         "rowSpan": 2,
-        "interaction": true
+        "interaction": true,
+        "resize": true
       }
     }
   ]
