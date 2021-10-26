@@ -258,12 +258,28 @@
       "itemsConfig": [],
       "instanceConfig": [],
       "dashboardConfig": {
+        "column": 0,
+        "row": 4,
+        "columnSpan": 2,
+        "rowSpan": 3,
+        "interaction": true,
+        "resize": true
+      }
+    },
+    {
+      "widget": "PIE_GRAPH_MAP",
+      "title": "Pie graphs map",
+      "sourceData": "QUALITY_RENTABILITY_BY_DATE",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
         "column": 10,
         "row": 0,
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": true,
-        "resize": true
+        "resize": false
       }
     }
   ]
