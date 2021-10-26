@@ -261,7 +261,7 @@
         "column": 10,
         "row": 0,
         "columnSpan": 2,
-        "rowSpan": 2,
+        "rowSpan": 3,
         "interaction": true,
         "resize": true
       }
