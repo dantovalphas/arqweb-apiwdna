@@ -110,7 +110,7 @@
               "color": "#fff",
               "align": "center",
               "margin": "0",
-              "fontSize": "18px"
+              "fontSize": "16px"
             }
           },
           "description": {
@@ -120,7 +120,7 @@
               "color": "#fff",
               "align": "center",
               "margin": "0",
-              "fontSize": "18px"
+              "fontSize": "12px"
             }
           },
           "tooltip": {
@@ -153,7 +153,7 @@
               "color": "#fff",
               "align": "center",
               "margin": "0",
-              "fontSize": "18px"
+              "fontSize": "16px"
             }
           },
           "description": {
@@ -163,7 +163,7 @@
               "color": "#fff",
               "align": "center",
               "margin": "0",
-              "fontSize": "18px"
+              "fontSize": "12px"
             }
           },
           "tooltip": {
@@ -196,7 +196,7 @@
               "color": "#fff",
               "align": "center",
               "margin": "0",
-              "fontSize": "18px"
+              "fontSize": "16px"
             }
           },
           "description": {
@@ -206,7 +206,7 @@
               "color": "#fff",
               "align": "center",
               "margin": "0",
-              "fontSize": "18px"
+              "fontSize": "12px"
             }
           },
           "tooltip": {
