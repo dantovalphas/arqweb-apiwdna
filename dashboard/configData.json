@@ -1,6 +1,6 @@
 {
   "title": "Dashboard de calidad rentable",
-  "columnDefinitions": "4",
+  "columnDefinitions": "12",
   "rowDefinitions": "3",
   "rowHeight": "300",
   "width": "*",
@@ -227,7 +227,7 @@
       "dashboardConfig": {
         "column": 1,
         "row": 0,
-        "columnSpan": 3,
+        "columnSpan": 11,
         "rowSpan": 2,
         "interaction": false
       }
