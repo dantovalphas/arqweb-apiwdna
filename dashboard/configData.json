@@ -269,7 +269,7 @@
     {
       "widget": "PIE_GRAPH_MAP",
       "title": "Pie graphs map",
-      "sourceData": "QUALITY_RENTABILITY_BY_DATE",
+      "sourceData": "QUALITY_RENTABILITY_BY_DATE_2",
       "zIndex": 0,
       "itemsConfig": [],
       "instanceConfig": [],

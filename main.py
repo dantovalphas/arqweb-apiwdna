@@ -55,5 +55,9 @@ def read_item(sourceData: str):
         with open('./data/sunburst.json') as json_file:
             data = json.load(json_file)
             return data
+    elif(sourceData == "QUALITY_RENTABILITY_BY_DATE_2"):
+        with open('./data/pieGraphsMap_2.json') as json_file:
+            data = json.load(json_file)
+            return data
     else:
         return {"Error": "Data not found"}
