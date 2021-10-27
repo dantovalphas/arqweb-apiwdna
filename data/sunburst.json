@@ -1,6 +1,7 @@
 {
-  "id": "KPI#",
+  "description": "Grafico de sunburst",
   "type": "SUNBURST_GRAPH",
+  "name": "RENTABILIDAD",
   "info": {
     "drillDown": "ddDateTablecqi_60"
   },
