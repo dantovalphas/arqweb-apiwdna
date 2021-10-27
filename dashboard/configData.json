@@ -1,7 +1,7 @@
 {
   "title": "Dashboard de calidad rentable",
   "columnDefinitions": 12,
-  "rowDefinitions": 3,
+  "rowDefinitions": 7,
   "rowHeight": "300",
   "width": "*",
   "sidebar": false,
