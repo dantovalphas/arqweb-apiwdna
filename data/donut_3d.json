@@ -1,13 +1,25 @@
 {
-  "id": "KPI#",
+  "description": "Grafico de donut",
   "type": "DONUT_3D_GRAPH",
-  "info": {
-    "drillDown": "ddDateTablecqi_60",
-    "dashboardName": "PROFITABLE_AND_UNPROFITABLE_SITES"
-  },
   "name": "RENTABILIDAD",
   "values": [
-    ["RENTABLE", 60],
-    ["NO RENTABLE", 50]
+    {
+      "id": "RENTABLE",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_AND_UNPROFITABLE_SITES"
+      },
+      "name": "RENTABLE",
+      "value": 60
+    },
+    {
+      "id": "NO_RENTABLE",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_AND_UNPROFITABLE_SITES"
+      },
+      "name": "NO RENTABLE",
+      "value": 50
+    }
   ]
 }

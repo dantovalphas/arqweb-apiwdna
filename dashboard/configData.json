@@ -3,7 +3,7 @@
   "columnDefinitions": 12,
   "rowDefinitions": 7,
   "rowHeight": "300",
-  "width": "*",
+  "columnWidth": "*",
   "sidebar": false,
   "items": [
     {
