@@ -241,7 +241,76 @@
       "zIndex": 0,
       "orientation": "vertical",
       "order": ["CIRCLE_GRAPH", "COLUMN_GRAPH", "BARS_GRAPH", "MAP_GRAPH"],
-      "itemsConfig": [],
+      "itemsConfig": [
+        {
+          "id": "ACC_PS",
+          "type": "BARS_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 4000",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 3000 & < 3800",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 3000",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true,
+            "severityValue": "severity_value"
+          }
+        },
+        {
+          "id": "ACC_CS",
+          "type": "BARS_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 20000",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 20000 & < 19000",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 19000",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true,
+            "severityValue": "severity_value"
+          }
+        },
+        {
+          "id": "SERIE_ID",
+          "type": "COLUMN_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 100",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 50 & < 100",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 50",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true
+          }
+        }
+      ],
       "instanceConfig": [
         {
           "id": "CIRCLE_GRAPH",
@@ -493,53 +562,26 @@
         },
         {
           "id": "COLUMN_GRAPH",
-          "series": [
-            {
-              "id": "SERIE_ID",
-              "style": {
-                "color": [
-                  {
-                    "condition": ">= 100",
-                    "value": "#46FC02"
-                  },
-                  {
-                    "condition": "> 50 & < 100",
-                    "value": "#FD8600"
-                  },
-                  {
-                    "condition": "<= 50",
-                    "value": "#FD0000"
-                  }
-                ],
-                "defaultColor": "#46FC02",
-                "useSeverity": true
+          "style": {
+            "color": [
+              {
+                "condition": ">= 100",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 50 & < 100",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 50",
+                "value": "#FD0000"
               }
-            },
-            {
-              "id": "SERIE2_ID",
-              "style": {
-                "color": [
-                  {
-                    "condition": ">= 100",
-                    "value": "#46FC02"
-                  },
-                  {
-                    "condition": "> 50 & < 100",
-                    "value": "#FD8600"
-                  },
-                  {
-                    "condition": "<= 50",
-                    "value": "#FD0000"
-                  }
-                ],
-                "defaultColor": "#46FC02",
-                "useSeverity": true
-              }
-            }
-          ],
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true
+          },
           "tooltip": {
             "isHtmlFormat": "false",
-            "valueDecimals": "2",
             "borderWidth": 1,
             "backgroundColor": "none",
             "pointFormat": "{point.y}",
@@ -553,13 +595,73 @@
           }
         },
         {
-          "id": "BARS_GRAPH"
+          "id": "BARS_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 92",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 90 & < 92",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 90",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true,
+            "severityValue": "severity_value"
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
+              "color": "#fff"
+            }
+          }
         },
         {
-          "id": "MAP_GRAPH"
-        },
-        {
-          "id": "SOLID_GAUGE"
+          "id": "MAP_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 100",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 50 & < 100",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 50",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
+              "color": "#fff"
+            }
+          }
         }
       ],
       "dashboardConfig": {
@@ -592,8 +694,409 @@
       "title": "Pie graphs map",
       "sourceData": "QUALITY_RENTABILITY_BY_DATE_2",
       "zIndex": 0,
-      "itemsConfig": [],
-      "instanceConfig": [],
+      "orientation": "vertical",
+      "order": ["CIRCLE_GRAPH", "COLUMN_GRAPH", "BARS_GRAPH", "MAP_GRAPH"],
+      "itemsConfig": [
+        {
+          "id": "ACC_PS",
+          "type": "BARS_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 4000",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 3000 & < 3800",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 3000",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true,
+            "severityValue": "severity_value"
+          }
+        },
+        {
+          "id": "ACC_CS",
+          "type": "BARS_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 20000",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 20000 & < 19000",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 19000",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true,
+            "severityValue": "severity_value"
+          }
+        }
+      ],
+      "instanceConfig": [
+        {
+          "id": "CIRCLE_GRAPH",
+          "domain": {
+            "textFormat": "{value}",
+            "style": {
+              "color": "#ffa500",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "title": {
+            "textFormat": "{value}",
+            "style": {
+              "color": "#ffffff",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "label": {
+            "textFormat": "{value}",
+            "style": {
+              "color": "#ffffff",
+              "margin": "0",
+              "fontSize": "14px"
+            }
+          },
+          "wtype": {
+            "textFormat": "{value}",
+            "style": {
+              "color": "#ffa500",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "main_value": {
+            "textFormat": "{value:.1f}%",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 80",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 50 & < 80",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 50",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": false,
+              "severityValue": "value",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "display": {
+            "textFormat": "{value}",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 80",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 50 & < 80",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 50",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "value",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "up_left": {
+            "textFormat": "{value}",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 3500",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 2500 & < 3500",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 2500",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "down_left",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "up_center": {
+            "textFormat": "{value}",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 3500",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 2500 & < 3500",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 2500",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "down_center",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "up_right": {
+            "textFormat": "{value}",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 3500",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 2500 & < 3500",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 2500",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "up_right",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "down_left": {
+            "textFormat": "{value}",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 3500",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 2500 & < 3500",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 2500",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "down_left",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "down_center": {
+            "textFormat": "{value}",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 3500",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 2500 & < 3500",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 2500",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "down_center",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "down_right": {
+            "textFormat": "{value}",
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 3500",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 2500 & < 3500",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 2500",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "up_right",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "value": {
+            "style": {
+              "color": [
+                {
+                  "condition": ">= 80",
+                  "value": "#46FC02"
+                },
+                {
+                  "condition": "> 80 & < 50",
+                  "value": "#FD8600"
+                },
+                {
+                  "condition": "<= 50",
+                  "value": "#FD0000"
+                }
+              ],
+              "defaultColor": "#ffffff",
+              "useSeverity": true,
+              "severityValue": "value"
+            }
+          }
+        },
+        {
+          "id": "COLUMN_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 100",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 50 & < 100",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 50",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
+              "color": "#fff"
+            }
+          }
+        },
+        {
+          "id": "BARS_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 92",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 90 & < 92",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 90",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true,
+            "severityValue": "severity_value"
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
+              "color": "#fff"
+            }
+          }
+        },
+        {
+          "id": "MAP_GRAPH",
+          "style": {
+            "color": [
+              {
+                "condition": ">= 100",
+                "value": "#46FC02"
+              },
+              {
+                "condition": "> 50 & < 100",
+                "value": "#FD8600"
+              },
+              {
+                "condition": "<= 50",
+                "value": "#FD0000"
+              }
+            ],
+            "defaultColor": "#46FC02",
+            "useSeverity": true
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
+              "color": "#fff"
+            }
+          }
+        }
+      ],
       "dashboardConfig": {
         "column": 10,
         "row": 0,

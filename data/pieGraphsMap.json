@@ -15,8 +15,8 @@
       "wtype": "CQI",
       "values": [
         {
-          "value": 88.5,
-          "main_value": "88.7%",
+          "value": 88.1,
+          "main_value": "88.7",
           "display": "PASSED",
           "up_left": "ON AIR",
           "up_center": "ON",
@@ -63,7 +63,8 @@
       "type": "BARS_GRAPH",
       "values": [
         {
-          "id": "Acc CS (%)",
+          "id": "ACC_CS",
+          "name": "Acc CS (%)",
           "info": {
             "drillDownId": "ddDateTablecqi_60"
           },
@@ -86,7 +87,8 @@
           ]
         },
         {
-          "id": "Acc PS (%)",
+          "id": "ACC_PS",
+          "name": "Acc PS (%)",
           "info": {
             "drillDownId": "ddDateTablecqi_60"
           },
@@ -103,30 +105,31 @@
             },
             {
               "value": 90.1,
-              "severity_value": 21483,
+              "severity_value": 3000,
               "display": "98.1"
             }
           ]
         },
         {
-          "id": "Ret CS (%)",
+          "id": "RET_CS",
+          "name": "Ret CS (%)",
           "info": {
             "drillDownId": "ddDateTablecqi_60"
           },
           "values": [
             {
               "value": 91.3,
-              "severity_value": 10848,
+              "severity_value": 91.3,
               "display": "92"
             },
             {
               "value": 92.5,
-              "severity_value": 24870,
+              "severity_value": 92.5,
               "display": "88"
             },
             {
               "value": 87.9,
-              "severity_value": 22765,
+              "severity_value": 87.9,
               "display": "90.8"
             }
           ]

@@ -16,7 +16,7 @@
       "values": [
         {
           "value": 88.5,
-          "main_value": "88.7%",
+          "main_value": "88.7",
           "display": "PASSED",
           "up_left": "ON AIR",
           "up_center": "ON",
@@ -60,7 +60,8 @@
       "type": "BARS_GRAPH",
       "values": [
         {
-          "id": "Acc CS (%)",
+          "id": "ACC_CS",
+          "name": "Acc CS (%)",
           "info": {
             "drillDownId": "ddDateTablecqi_60"
           },
@@ -83,7 +84,8 @@
           ]
         },
         {
-          "id": "Acc PS (%)",
+          "id": "ACC_PS",
+          "name": "Acc PS (%)",
           "info": {
             "drillDownId": "ddDateTablecqi_60"
           },
@@ -106,7 +108,8 @@
           ]
         },
         {
-          "id": "Ret CS (%)",
+          "id": "RET_CS",
+          "name": "Ret CS (%)",
           "info": {
             "drillDownId": "ddDateTablecqi_60"
           },
@@ -129,7 +132,8 @@
           ]
         },
         {
-          "id": "Aps CS (%)",
+          "id": "APS_CS",
+          "name": "Aps CS (%)",
           "info": {
             "drillDownId": "ddDateTablecqi_60"
           },
