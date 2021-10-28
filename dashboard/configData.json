@@ -22,24 +22,6 @@
           }
         },
         {
-          "id": "K#PROFITABILITY||REGION_1",
-          "fillColor": "#152",
-          "fillOpacity": 0.1,
-          "tooltip": {
-            "suffix": "",
-            "prefix": ""
-          }
-        },
-        {
-          "id": "K#PROFITABILITY||REGION_2",
-          "fillColor": "#804",
-          "fillOpacity": 0.8,
-          "tooltip": {
-            "suffix": "",
-            "prefix": ""
-          }
-        },
-        {
           "id": "K#TOTAL_EXPENSES||REGION_0",
           "fillColor": "#828",
           "fillOpacity": 0.7,
@@ -109,7 +91,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -119,7 +101,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "12px"
             }
           },
@@ -152,7 +134,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -162,7 +144,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "12px"
             }
           },
@@ -195,7 +177,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -205,7 +187,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "12px"
             }
           },
@@ -318,7 +300,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffa500",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -326,7 +308,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffffff",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -334,7 +316,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffffff",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "14px"
             }
           },
@@ -342,7 +324,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffa500",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -366,7 +348,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": false,
               "severityValue": "value",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -390,7 +372,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "value",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -414,7 +396,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_left",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -438,7 +420,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -462,7 +444,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "up_right",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -486,7 +468,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_left",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -510,7 +492,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -534,7 +516,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "up_right",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -751,7 +733,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffa500",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -759,7 +741,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffffff",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -767,7 +749,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffffff",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "14px"
             }
           },
@@ -775,7 +757,7 @@
             "textFormat": "{value}",
             "style": {
               "color": "#ffa500",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -799,7 +781,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": false,
               "severityValue": "value",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -823,7 +805,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "value",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -847,7 +829,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_left",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -871,7 +853,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -895,7 +877,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "up_right",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -919,7 +901,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_left",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -943,7 +925,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "down_center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -967,7 +949,7 @@
               "defaultColor": "#ffffff",
               "useSeverity": true,
               "severityValue": "up_right",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
