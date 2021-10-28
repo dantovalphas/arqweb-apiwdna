@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "K#TOTAL_EXPENSES||REGION_3",
+      "id": "K#TOTAL_EXPENSES||REGION_1",
       "info": {
         "vendorId": 6,
         "regionId": 3,
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": "K#TOTAL_INCOMES||REGION_2",
+      "id": "K#TOTAL_INCOMES||REGION_1",
       "info": {
         "vendorId": 1,
         "regionId": 2,
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "id": "K#TOTAL_INCOMES||REGION_6",
+      "id": "K#TOTAL_INCOMES||REGION_0",
       "info": {
         "vendorId": 3,
         "regionId": 6,
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "id": "K#TOTAL_EXPENSES||REGION_1",
+      "id": "K#TOTAL_EXPENSES||REGION_0",
       "info": {
         "vendorId": 8,
         "regionId": 1,
