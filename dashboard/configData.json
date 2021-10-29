@@ -230,15 +230,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 4000",
+                "condition": "{value} >= 4000",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 3000 & < 3800",
+                "condition": "{value} > 3000 && {value} < 3800",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 3000",
+                "condition": "${value} <= 3000",
                 "value": "#FD0000"
               }
             ],
@@ -253,15 +253,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 20000",
+                "condition": "{value} >= 20000",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 20000 & < 19000",
+                "condition": "{value} > 20000 && {value} < 19000",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 19000",
+                "condition": "{value} <= 19000",
                 "value": "#FD0000"
               }
             ],
@@ -276,15 +276,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 100",
+                "condition": "{value} >= 100",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 50 & < 100",
+                "condition": "{value} > 50 && {value} < 100",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 50",
+                "condition": "{value} <= 50",
                 "value": "#FD0000"
               }
             ],
@@ -333,15 +333,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 80",
+                  "condition": "{value} >= 80",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 50 & < 80",
+                  "condition": "{value} > 50 && {value} < 80",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 50",
+                  "condition": "{value} <= 50",
                   "value": "#FD0000"
                 }
               ],
@@ -357,15 +357,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 80",
+                  "condition": "{value} >= 80",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 50 & < 80",
+                  "condition": "{value} > 50 && {value} < 80",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 50",
+                  "condition": "{value} <= 50",
                   "value": "#FD0000"
                 }
               ],
@@ -381,15 +381,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -405,15 +405,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -429,15 +429,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -453,15 +453,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -477,15 +477,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -501,15 +501,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -524,15 +524,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 80",
+                  "condition": "{value} >= 80",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 80 & < 50",
+                  "condition": "{value} > 80 && {value} < 50",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 50",
+                  "condition": "{value} <= 50",
                   "value": "#FD0000"
                 }
               ],
@@ -547,15 +547,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 100",
+                "condition": "{value} >= 100",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 50 & < 100",
+                "condition": "{value} > 50 && {value} < 100",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 50",
+                "condition": "{value} <= 50",
                 "value": "#FD0000"
               }
             ],
@@ -581,15 +581,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 92",
+                "condition": "{value} >= 92",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 90 & < 92",
+                "condition": "{value} > 90 && {value} < 92",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 90",
+                "condition": "{value} <= 90",
                 "value": "#FD0000"
               }
             ],
@@ -616,15 +616,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 100",
+                "condition": "{value} >= 100",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 50 & < 100",
+                "condition": "{value} > 50 && {value} < 100",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 50",
+                "condition": "{value} <= 50",
                 "value": "#FD0000"
               }
             ],
@@ -634,11 +634,11 @@
           "tooltip": {
             "isHtmlFormat": "false",
             "borderWidth": 1,
-            "backgroundColor": "none",
-            "pointFormat": "{point.y}",
+            "backgroundColor": "#ffffff",
+            "pointFormat": "{region}<br />3G Composite Quality<br />{point.y}<br>",
             "headerFormat": "",
             "footerFormat": "",
-            "shadow": true,
+            "shadow": false,
             "style": {
               "fontSize": "18px",
               "color": "#fff"
@@ -685,15 +685,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 4000",
+                "condition": "{value} >= 4000",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 3000 & < 3800",
+                "condition": "{value} > 3000 && {value} < 3800",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 3000",
+                "condition": "{value} <= 3000",
                 "value": "#FD0000"
               }
             ],
@@ -708,15 +708,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 20000",
+                "condition": "{value} >= 20000",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 20000 & < 19000",
+                "condition": "{value} > 20000 && {value} < 19000",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 19000",
+                "condition": "{value} <= 19000",
                 "value": "#FD0000"
               }
             ],
@@ -766,15 +766,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 80",
+                  "condition": "{value} >= 80",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 50 & < 80",
+                  "condition": "{value} > 50 && {value} < 80",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 50",
+                  "condition": "{value} <= 50",
                   "value": "#FD0000"
                 }
               ],
@@ -790,15 +790,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 80",
+                  "condition": "{value} >= 80",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 50 & < 80",
+                  "condition": "{value} > 50 && {value} < 80",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 50",
+                  "condition": "{value} <= 50",
                   "value": "#FD0000"
                 }
               ],
@@ -814,15 +814,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -838,15 +838,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -862,15 +862,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -886,15 +886,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -910,15 +910,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -934,15 +934,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 3500",
+                  "condition": "{value} >= 3500",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 2500 & < 3500",
+                  "condition": "{value} > 2500 && {value} < 3500",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 2500",
+                  "condition": "{value} <= 2500",
                   "value": "#FD0000"
                 }
               ],
@@ -957,15 +957,15 @@
             "style": {
               "color": [
                 {
-                  "condition": ">= 80",
+                  "condition": "{value} >= 80",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "> 80 & < 50",
+                  "condition": "{value} > 80 && {value} < 50",
                   "value": "#FD8600"
                 },
                 {
-                  "condition": "<= 50",
+                  "condition": "{value} <= 50",
                   "value": "#FD0000"
                 }
               ],
@@ -980,15 +980,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 100",
+                "condition": "{value} >= 100",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 50 & < 100",
+                "condition": "{value} > 50 && {value} < 100",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 50",
+                "condition": "{value} <= 50",
                 "value": "#FD0000"
               }
             ],
@@ -1014,15 +1014,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 92",
+                "condition": "{value} >= 92",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 90 & < 92",
+                "condition": "{value} > 90 && {value} < 92",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 90",
+                "condition": "{value} <= 90",
                 "value": "#FD0000"
               }
             ],
@@ -1049,15 +1049,15 @@
           "style": {
             "color": [
               {
-                "condition": ">= 100",
+                "condition": "{value} >= 100",
                 "value": "#46FC02"
               },
               {
-                "condition": "> 50 & < 100",
+                "condition": "{value} > 50 && {value} < 100",
                 "value": "#FD8600"
               },
               {
-                "condition": "<= 50",
+                "condition": "{value} <= 50",
                 "value": "#FD0000"
               }
             ],
@@ -1068,7 +1068,7 @@
             "isHtmlFormat": "false",
             "borderWidth": 1,
             "backgroundColor": "none",
-            "pointFormat": "{point.y}",
+            "pointFormat": "{region}<br />3G Composite Quality<br />{point.y}<br>",
             "headerFormat": "",
             "footerFormat": "",
             "shadow": true,
