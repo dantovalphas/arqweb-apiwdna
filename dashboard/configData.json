@@ -660,8 +660,47 @@
       "title": "Rentability",
       "sourceData": "RENTABILITY_COMPARATION",
       "zIndex": 0,
-      "itemsConfig": [],
-      "instanceConfig": [],
+      "itemsConfig": [
+        {
+          "id": "RENTABLE",
+          "fillColor": "orange",
+          "fillOpacity": 0.6
+        },
+        {
+          "id": "NO_RENTABLE",
+          "fillColor": "red",
+          "fillOpacity": 0.6
+        }
+      ],
+      "instanceConfig": [
+        {
+          "enabled3d": "true",
+          "innerSize": "100",
+          "depth": "45",
+          "alpha": "45",
+          "legend": {
+            "enabled": false
+          },
+          "title": {
+            "text": "Sitios Rentables y no Rentables",
+            "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "description": {
+            "text": "",
+            "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "14px"
+            }
+          }
+        }
+      ],
       "dashboardConfig": {
         "column": 0,
         "row": 4,
