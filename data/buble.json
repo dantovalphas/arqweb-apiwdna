@@ -1,0 +1,142 @@
+{
+  "description": "Mercados más rentables",
+  "type": "BUBLE_GRAPH",
+  "name": "Mercados rentables",
+  "values": [
+    {
+      "id": "K#PROFITABLE_MARKETS||REGION_0",
+      "name": "PACIFIC",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_MARKETS_PACIFIC"
+      },
+      "data": [
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0||MARKET_0",
+          "name": "New York",
+          "value": 186
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0||MARKET_1",
+          "name": "Ohio",
+          "value": 455
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0||MARKET_2",
+          "name": "California",
+          "value": 155
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0||MARKET_3",
+          "name": "New Jersey",
+          "value": 347
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0||MARKET_4",
+          "name": "Louisiana",
+          "value": 393
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0||MARKET_5",
+          "name": "Nebraska",
+          "value": 215
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0||MARKET_6",
+          "name": "Virgin Islands",
+          "value": 142
+        }
+      ]
+    },
+    {
+      "id": "K#PROFITABLE_MARKETS||REGION_1",
+      "name": "NORTH",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_MARKETS_NORTH"
+      },
+      "data": [
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1||MARKET_0",
+          "name": "Arizona",
+          "value": 43
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1||MARKET_1",
+          "name": "American Samoa",
+          "value": 629
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1||MARKET_2",
+          "name": "Pennsylvania",
+          "value": 121
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1||MARKET_3",
+          "name": "Michigan",
+          "value": 319
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1||MARKET_4",
+          "name": "Illinois",
+          "value": 800
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1||MARKET_5",
+          "name": "Iowa",
+          "value": 394
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1||MARKET_6",
+          "name": "Texas",
+          "value": 295
+        }
+      ]
+    },
+    {
+      "id": "K#PROFITABLE_MARKETS||REGION_2",
+      "name": "CENTRO",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_MARKETS_CENTRO"
+      },
+      "data": [
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2||MARKET_0",
+          "name": "North Carolina",
+          "value": 251
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2||MARKET_1",
+          "name": "Nevada",
+          "value": 344
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2||MARKET_2",
+          "name": "Kentucky",
+          "value": 334
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2||MARKET_3",
+          "name": "Guam",
+          "value": 645
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2||MARKET_4",
+          "name": "Florida",
+          "value": 841
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2||MARKET_5",
+          "name": "Tennessee",
+          "value": 65
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2||MARKET_6",
+          "name": "Wisconsin",
+          "value": 414
+        }
+      ]
+    }
+  ]
+}

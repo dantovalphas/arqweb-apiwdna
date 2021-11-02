@@ -1126,6 +1126,21 @@
         "interaction": true,
         "resize": false
       }
+    },
+    {
+      "widget": "BUBLE_GRAPH",
+      "title": "Mercados rentables",
+      "sourceData": "PROFITABLE_MARKETS_BYREGIONS",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 2,
+        "row": 4,
+        "columnSpan": 2,
+        "rowSpan": 3,
+        "interaction": false
+      }
     }
   ]
 }

@@ -59,5 +59,9 @@ def read_item(sourceData: str):
         with open('./data/pieGraphsMap_2.json') as json_file:
             data = json.load(json_file)
             return data
+    elif(sourceData == "PROFITABLE_MARKETS_BYREGIONS"):
+        with open('./data/buble.json') as json_file:
+            data = json.load(json_file)
+            return data
     else:
         return {"Error": "Data not found"}
