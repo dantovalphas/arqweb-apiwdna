@@ -238,7 +238,7 @@
                 "value": "#FD8600"
               },
               {
-                "condition": "${value} <= 3000",
+                "condition": "{value} <= 3000",
                 "value": "#FD0000"
               }
             ],
