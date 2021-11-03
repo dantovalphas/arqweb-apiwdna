@@ -24,7 +24,7 @@
         {
           "id": "K#TOTAL_EXPENSES||REGION_0",
           "fillColor": "#828123",
-          "fillOpacity": 1,
+          "fillOpacity": 0.7,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -33,7 +33,7 @@
         {
           "id": "K#TOTAL_EXPENSES||REGION_1",
           "fillColor": "#701123",
-          "fillOpacity": 1,
+          "fillOpacity": 0.8,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -42,7 +42,7 @@
         {
           "id": "K#TOTAL_EXPENSES||REGION_2",
           "fillColor": "#639123",
-          "fillOpacity": 1,
+          "fillOpacity": 0.7,
           "tooltip": {
             "suffix": "",
             "prefix": ""
