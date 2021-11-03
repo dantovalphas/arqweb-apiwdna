@@ -14,7 +14,7 @@
       "itemsConfig": [
         {
           "id": "K#PROFITABILITY||REGION_0",
-          "fillColor": "#670",
+          "fillColor": "#670567",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -23,7 +23,7 @@
         },
         {
           "id": "K#TOTAL_EXPENSES||REGION_0",
-          "fillColor": "#828",
+          "fillColor": "#828123",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -32,7 +32,7 @@
         },
         {
           "id": "K#TOTAL_EXPENSES||REGION_1",
-          "fillColor": "#701",
+          "fillColor": "#701123",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -41,7 +41,7 @@
         },
         {
           "id": "K#TOTAL_EXPENSES||REGION_2",
-          "fillColor": "#639",
+          "fillColor": "#639123",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -50,7 +50,7 @@
         },
         {
           "id": "K#TOTAL_INCOMES||REGION_0",
-          "fillColor": "#610",
+          "fillColor": "#610123",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -59,7 +59,7 @@
         },
         {
           "id": "K#TOTAL_INCOMES||REGION_1",
-          "fillColor": "#941",
+          "fillColor": "#941543",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -68,7 +68,7 @@
         },
         {
           "id": "K#TOTAL_INCOMES||REGION_2",
-          "fillColor": "#156",
+          "fillColor": "#156123",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -717,7 +717,7 @@
       "sourceData": "QUALITY_RENTABILITY_BY_DATE_2",
       "zIndex": 0,
       "orientation": "vertical",
-      "order": ["CIRCLE_GRAPH", "COLUMN_GRAPH", "BARS_GRAPH", "MAP_GRAPH"],
+      "order": ["CIRCLE_GRAPH", "COLUMN_GRAPH", "MAP_GRAPH", "BARS_GRAPH"],
       "itemsConfig": [
         {
           "id": "ACC_PS",
