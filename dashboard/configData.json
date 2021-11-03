@@ -1146,7 +1146,7 @@
     {
       "widget": "HEATMAP_GRAPH",
       "title": "Estimación de ingresos",
-      "sourceData": "INCOMES_ESTIMATES",
+      "sourceData": "ESTIMATED_INCOME",
       "zIndex": 0,
       "itemsConfig": [],
       "instanceConfig": [],

@@ -63,5 +63,9 @@ def read_item(sourceData: str):
         with open('./data/buble.json') as json_file:
             data = json.load(json_file)
             return data
+    elif(sourceData == "ESTIMATED_INCOME"):
+        with open('./data/heatmap.json') as json_file:
+            data = json.load(json_file)
+            return data
     else:
         return {"Error": "Data not found"}

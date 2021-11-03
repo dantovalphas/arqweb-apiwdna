@@ -1,0 +1,184 @@
+{
+  "description": "Estimación de ingresos del mes actual",
+  "type": "graph",
+  "timeGranularity": "day",
+  "name": "Estimación de ingresos",
+  "categories": ["Lun", "Mar", "Mie", "Jue", "Vie"],
+  "values": [
+    {
+      "name": "W-01",
+      "data": [
+        {
+          "info": {
+            "drillDown": "drillDown_ID1"
+          },
+          "y": 1.2
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID7"
+          },
+          "y": 1.2
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID7"
+          },
+          "y": 0.9
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID9"
+          },
+          "y": 1.2
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID5"
+          },
+          "y": 0.8
+        }
+      ]
+    },
+    {
+      "name": "W-02",
+      "data": [
+        {
+          "info": {
+            "drillDown": "drillDown_ID3"
+          },
+          "y": 1
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID1"
+          },
+          "y": 0.9
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID8"
+          },
+          "y": 1
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID3"
+          },
+          "y": 0.9
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID5"
+          },
+          "y": 1.1
+        }
+      ]
+    },
+    {
+      "name": "W-03",
+      "data": [
+        {
+          "info": {
+            "drillDown": "drillDown_ID7"
+          },
+          "y": 1.1
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID5"
+          },
+          "y": 1.1
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID6"
+          },
+          "y": 1
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID2"
+          },
+          "y": 0.9
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID9"
+          },
+          "y": 0.8
+        }
+      ]
+    },
+    {
+      "name": "W-04",
+      "data": [
+        {
+          "info": {
+            "drillDown": "drillDown_ID4"
+          },
+          "y": 0.8
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID8"
+          },
+          "y": 1.2
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID3"
+          },
+          "y": 0.8
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID1"
+          },
+          "y": 0.8
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID7"
+          },
+          "y": 0.8
+        }
+      ]
+    },
+    {
+      "name": "W-05",
+      "data": [
+        {
+          "info": {
+            "drillDown": "drillDown_ID4"
+          },
+          "y": 1.2
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID5"
+          },
+          "y": 0.8
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID2"
+          },
+          "y": 0.9
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID8"
+          },
+          "y": 0.9
+        },
+        {
+          "info": {
+            "drillDown": "drillDown_ID2"
+          },
+          "y": 1.1
+        }
+      ]
+    }
+  ]
+}
