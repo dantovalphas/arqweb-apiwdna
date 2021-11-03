@@ -15,7 +15,7 @@
         {
           "id": "K#PROFITABILITY||REGION_0",
           "fillColor": "#670",
-          "fillOpacity": 0.6,
+          "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -24,7 +24,7 @@
         {
           "id": "K#TOTAL_EXPENSES||REGION_0",
           "fillColor": "#828",
-          "fillOpacity": 0.7,
+          "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -33,7 +33,7 @@
         {
           "id": "K#TOTAL_EXPENSES||REGION_1",
           "fillColor": "#701",
-          "fillOpacity": 0.9,
+          "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -42,7 +42,7 @@
         {
           "id": "K#TOTAL_EXPENSES||REGION_2",
           "fillColor": "#639",
-          "fillOpacity": 0.1,
+          "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -51,7 +51,7 @@
         {
           "id": "K#TOTAL_INCOMES||REGION_0",
           "fillColor": "#610",
-          "fillOpacity": 0.1,
+          "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -60,7 +60,7 @@
         {
           "id": "K#TOTAL_INCOMES||REGION_1",
           "fillColor": "#941",
-          "fillOpacity": 0.9,
+          "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
             "prefix": ""
@@ -69,7 +69,7 @@
         {
           "id": "K#TOTAL_INCOMES||REGION_2",
           "fillColor": "#156",
-          "fillOpacity": 0.7,
+          "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
             "prefix": ""
