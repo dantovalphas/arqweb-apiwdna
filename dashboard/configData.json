@@ -1142,6 +1142,21 @@
         "rowSpan": 3,
         "interaction": false
       }
+    },
+    {
+      "widget": "HEATMAP_GRAPH",
+      "title": "Estimación de ingresos",
+      "sourceData": "INCOMES_ESTIMATES",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 4,
+        "row": 4,
+        "columnSpan": 2,
+        "rowSpan": 3,
+        "interaction": false
+      }
     }
   ]
 }
