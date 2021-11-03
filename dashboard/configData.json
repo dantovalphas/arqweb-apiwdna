@@ -674,7 +674,8 @@
       ],
       "instanceConfig": [
         {
-          "enabled3d": "true",
+          "enabled3d": true,
+          "percentage": true,
           "innerSize": "100",
           "depth": "45",
           "alpha": "45",
