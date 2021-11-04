@@ -1,7 +1,7 @@
 {
   "description": "Estimación de ingresos del mes actual",
   "type": "graph",
-  "timeGranularity": "day",
+  "timeGranularity": "week",
   "name": "Estimación de ingresos",
   "categories": ["Lun", "Mar", "Mie", "Jue", "Vie"],
   "values": [

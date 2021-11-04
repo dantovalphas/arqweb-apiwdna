@@ -14,7 +14,7 @@
       "itemsConfig": [
         {
           "id": "K#PROFITABILITY||REGION_0",
-          "fillColor": "#670567",
+          "fillColor": "#04a999",
           "fillOpacity": 1,
           "tooltip": {
             "suffix": "",
@@ -726,18 +726,18 @@
             "color": [
               {
                 "condition": "{value} >= 4000",
-                "value": "#46FC02"
+                "value": "#247BA0"
               },
               {
                 "condition": "{value} > 3000 && {value} < 3800",
-                "value": "#FD8600"
+                "value": "#0A2463"
               },
               {
                 "condition": "{value} <= 3000",
-                "value": "#FD0000"
+                "value": "#FB3640"
               }
             ],
-            "defaultColor": "#46FC02",
+            "defaultColor": "#FB3640",
             "useSeverity": true,
             "severityValue": "severity_value"
           }
@@ -749,18 +749,18 @@
             "color": [
               {
                 "condition": "{value} >= 20000",
-                "value": "#46FC02"
+                "value": "#247BA0"
               },
               {
                 "condition": "{value} > 20000 && {value} < 19000",
-                "value": "#FD8600"
+                "value": "#0A2463"
               },
               {
                 "condition": "{value} <= 19000",
-                "value": "#FD0000"
+                "value": "#FB3640"
               }
             ],
-            "defaultColor": "#46FC02",
+            "defaultColor": "#FB3640",
             "useSeverity": true,
             "severityValue": "severity_value"
           }
@@ -772,7 +772,7 @@
           "domain": {
             "textFormat": "{value}",
             "style": {
-              "color": "#ffa500",
+              "color": "#FB3640",
               "margin": 0,
               "fontSize": "16px"
             }
@@ -796,7 +796,7 @@
           "wtype": {
             "textFormat": "{value}",
             "style": {
-              "color": "#ffa500",
+              "color": "#FB3640",
               "margin": 0,
               "fontSize": "16px"
             }
@@ -807,15 +807,15 @@
               "color": [
                 {
                   "condition": "{value} >= 80",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 50 && {value} < 80",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 50",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -831,15 +831,15 @@
               "color": [
                 {
                   "condition": "{value} >= 80",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 50 && {value} < 80",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 50",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -855,15 +855,15 @@
               "color": [
                 {
                   "condition": "{value} >= 3500",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 2500 && {value} < 3500",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 2500",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -879,15 +879,15 @@
               "color": [
                 {
                   "condition": "{value} >= 3500",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 2500 && {value} < 3500",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 2500",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -903,15 +903,15 @@
               "color": [
                 {
                   "condition": "{value} >= 3500",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 2500 && {value} < 3500",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 2500",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -927,15 +927,15 @@
               "color": [
                 {
                   "condition": "{value} >= 3500",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 2500 && {value} < 3500",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 2500",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -951,15 +951,15 @@
               "color": [
                 {
                   "condition": "{value} >= 3500",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 2500 && {value} < 3500",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 2500",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -975,15 +975,15 @@
               "color": [
                 {
                   "condition": "{value} >= 3500",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 2500 && {value} < 3500",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 2500",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -998,15 +998,15 @@
               "color": [
                 {
                   "condition": "{value} >= 80",
-                  "value": "#46FC02"
+                  "value": "#247BA0"
                 },
                 {
                   "condition": "{value} > 80 && {value} < 50",
-                  "value": "#FD8600"
+                  "value": "#0A2463"
                 },
                 {
                   "condition": "{value} <= 50",
-                  "value": "#FD0000"
+                  "value": "#FB3640"
                 }
               ],
               "defaultColor": "#ffffff",
@@ -1021,18 +1021,18 @@
             "color": [
               {
                 "condition": "{value} >= 100",
-                "value": "#46FC02"
+                "value": "#247BA0"
               },
               {
                 "condition": "{value} > 50 && {value} < 100",
-                "value": "#FD8600"
+                "value": "#0A2463"
               },
               {
                 "condition": "{value} <= 50",
-                "value": "#FD0000"
+                "value": "#FB3640"
               }
             ],
-            "defaultColor": "#46FC02",
+            "defaultColor": "#FB3640",
             "useSeverity": true
           },
           "tooltip": {
@@ -1055,18 +1055,18 @@
             "color": [
               {
                 "condition": "{value} >= 92",
-                "value": "#46FC02"
+                "value": "#247BA0"
               },
               {
                 "condition": "{value} > 90 && {value} < 92",
-                "value": "#FD8600"
+                "value": "#0A2463"
               },
               {
                 "condition": "{value} <= 90",
-                "value": "#FD0000"
+                "value": "#FB3640"
               }
             ],
-            "defaultColor": "#46FC02",
+            "defaultColor": "#FB3640",
             "useSeverity": true,
             "severityValue": "severity_value"
           },
@@ -1090,18 +1090,18 @@
             "color": [
               {
                 "condition": "{value} >= 100",
-                "value": "#46FC02"
+                "value": "#247BA0"
               },
               {
                 "condition": "{value} > 50 && {value} < 100",
-                "value": "#FD8600"
+                "value": "#0A2463"
               },
               {
                 "condition": "{value} <= 50",
-                "value": "#FD0000"
+                "value": "#FB3640"
               }
             ],
-            "defaultColor": "#46FC02",
+            "defaultColor": "#FB3640",
             "useSeverity": true
           },
           "tooltip": {
