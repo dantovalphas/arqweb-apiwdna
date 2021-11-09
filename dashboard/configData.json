@@ -1133,8 +1133,67 @@
       "title": "Mercados rentables",
       "sourceData": "PROFITABLE_MARKETS_BYREGIONS",
       "zIndex": 0,
-      "itemsConfig": [],
-      "instanceConfig": [],
+      "itemsConfig": [
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0",
+          "fillColor": "#e47490",
+          "fillOpacity": "0.9"
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_1",
+          "fillColor": "#587f51",
+          "fillOpacity": "0.7"
+        },
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_2",
+          "fillColor": "#40163c",
+          "fillOpacity": "0.8"
+        }
+      ],
+      "instanceConfig": [
+        {
+          "id": "K#PROFITABLE_MARKETS||REGION_0",
+          "minSize": "20%",
+          "maxSize": "100%",
+          "zMax": "2000",
+          "zMin": "0",
+          "gravitationalConstant": "0.05",
+          "labels": {
+            "textColor": "#000000",
+            "fontSize": "12",
+            "enabled": true,
+            "format": "{point.name}",
+            "filter": {
+              "property": "y",
+              "operator": ">",
+              "value": 250
+            }
+          },
+          "title": {
+            "text": "Mercados rentables",
+            "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "valueDecimals": "2",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "<b>{point.name}:</b> {point.value}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "12px",
+              "color": "#000000"
+            }
+          }
+        }
+      ],
       "dashboardConfig": {
         "column": 2,
         "row": 4,
