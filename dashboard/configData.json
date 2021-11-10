@@ -1137,17 +1137,17 @@
         {
           "id": "K#PROFITABLE_MARKETS||REGION_0",
           "fillColor": "#e47490",
-          "fillOpacity": "0.9"
+          "fillOpacity": "1"
         },
         {
           "id": "K#PROFITABLE_MARKETS||REGION_1",
           "fillColor": "#587f51",
-          "fillOpacity": "0.7"
+          "fillOpacity": "1"
         },
         {
           "id": "K#PROFITABLE_MARKETS||REGION_2",
           "fillColor": "#40163c",
-          "fillOpacity": "0.8"
+          "fillOpacity": "1"
         }
       ],
       "instanceConfig": [
