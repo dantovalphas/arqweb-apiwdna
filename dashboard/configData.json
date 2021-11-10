@@ -1155,7 +1155,7 @@
           "id": "K#PROFITABLE_MARKETS||REGION_0",
           "minSize": "20%",
           "maxSize": "100%",
-          "zMax": "2000",
+          "zMax": "4000",
           "zMin": "0",
           "gravitationalConstant": "0.05",
           "labels": {
