@@ -1208,7 +1208,34 @@
       "sourceData": "ESTIMATED_INCOME",
       "zIndex": 0,
       "itemsConfig": [],
-      "instanceConfig": [],
+      "instanceConfig": [
+        {
+          "minColor": "#0fa709",
+          "maxColor": "#a7090f",
+          "minValue": "0",
+          "maxValue": "1",
+          "label": {
+            "color": "#000000",
+            "fontSize": "10",
+            "enabled": true
+          },
+          "title": {
+            "text": "Estimación de ingresos",
+            "style": {
+              "color": "#ffffff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "14px"
+            }
+          },
+          "legend": {
+            "enabled": true,
+            "align": "right",
+            "layout": "vertical",
+            "margin": 0
+          }
+        }
+      ],
       "dashboardConfig": {
         "column": 4,
         "row": 4,
