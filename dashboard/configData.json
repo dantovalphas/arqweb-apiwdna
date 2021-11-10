@@ -1157,7 +1157,7 @@
           "maxSize": "100%",
           "zMax": 4000,
           "zMin": 0,
-          "gravitationalConstant": "0.05",
+          "gravitationalConstant": 0.05,
           "labels": {
             "textColor": "#000000",
             "fontSize": "12",
