@@ -12,31 +12,31 @@
           "info": {
             "drillDown": "drillDown_ID1"
           },
-          "y": 1.2
+          "value": 1.2
         },
         {
           "info": {
             "drillDown": "drillDown_ID7"
           },
-          "y": 1.2
+          "value": 1.2
         },
         {
           "info": {
             "drillDown": "drillDown_ID7"
           },
-          "y": 0.9
+          "value": 0.9
         },
         {
           "info": {
             "drillDown": "drillDown_ID9"
           },
-          "y": 0.3
+          "value": 0.3
         },
         {
           "info": {
             "drillDown": "drillDown_ID5"
           },
-          "y": 0.1
+          "value": 0.1
         }
       ]
     },
@@ -47,31 +47,31 @@
           "info": {
             "drillDown": "drillDown_ID3"
           },
-          "y": 1
+          "value": 1
         },
         {
           "info": {
             "drillDown": "drillDown_ID1"
           },
-          "y": 0.2
+          "value": 0.2
         },
         {
           "info": {
             "drillDown": "drillDown_ID8"
           },
-          "y": 1
+          "value": 1
         },
         {
           "info": {
             "drillDown": "drillDown_ID3"
           },
-          "y": 0.4
+          "value": 0.4
         },
         {
           "info": {
             "drillDown": "drillDown_ID5"
           },
-          "y": 1.1
+          "value": 1.1
         }
       ]
     },
@@ -82,31 +82,31 @@
           "info": {
             "drillDown": "drillDown_ID7"
           },
-          "y": 1.1
+          "value": 1.1
         },
         {
           "info": {
             "drillDown": "drillDown_ID5"
           },
-          "y": 0.1
+          "value": 0.1
         },
         {
           "info": {
             "drillDown": "drillDown_ID6"
           },
-          "y": 1
+          "value": 1
         },
         {
           "info": {
             "drillDown": "drillDown_ID2"
           },
-          "y": 0
+          "value": 0
         },
         {
           "info": {
             "drillDown": "drillDown_ID9"
           },
-          "y": 0.8
+          "value": 0.8
         }
       ]
     },
@@ -117,31 +117,31 @@
           "info": {
             "drillDown": "drillDown_ID4"
           },
-          "y": 0.4
+          "value": 0.4
         },
         {
           "info": {
             "drillDown": "drillDown_ID8"
           },
-          "y": 1.2
+          "value": 1.2
         },
         {
           "info": {
             "drillDown": "drillDown_ID3"
           },
-          "y": 0.8
+          "value": 0.8
         },
         {
           "info": {
             "drillDown": "drillDown_ID1"
           },
-          "y": 0.3
+          "value": 0.3
         },
         {
           "info": {
             "drillDown": "drillDown_ID7"
           },
-          "y": 0.8
+          "value": 0.8
         }
       ]
     },
@@ -152,31 +152,31 @@
           "info": {
             "drillDown": "drillDown_ID4"
           },
-          "y": 1.2
+          "value": 1.2
         },
         {
           "info": {
             "drillDown": "drillDown_ID5"
           },
-          "y": 0.2
+          "value": 0.2
         },
         {
           "info": {
             "drillDown": "drillDown_ID2"
           },
-          "y": 0.9
+          "value": 0.9
         },
         {
           "info": {
             "drillDown": "drillDown_ID8"
           },
-          "y": 0.1
+          "value": 0.1
         },
         {
           "info": {
             "drillDown": "drillDown_ID2"
           },
-          "y": 1.1
+          "value": 1.1
         }
       ]
     }
