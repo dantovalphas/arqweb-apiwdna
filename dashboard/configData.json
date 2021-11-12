@@ -1327,7 +1327,7 @@
       "instanceConfig": [
         {
           "imageType": "assets",
-          "source": "gis_static.png",
+          "source": "gis_static_monetize.png",
           "minWidth": "200"
         }
       ],
