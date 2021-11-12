@@ -1327,7 +1327,7 @@
       "instanceConfig": [
         {
           "imageType": "assets",
-          "source": "/entropy/assets/gis.png",
+          "source": "gis_static.png",
           "minWidth": "200"
         }
       ],
