@@ -67,5 +67,9 @@ def read_item(sourceData: str):
         with open('./data/heatmap.json') as json_file:
             data = json.load(json_file)
             return data
+    elif(sourceData == "RENTABILITY_BY_MARKET"):
+        with open('./data/gis.json') as json_file:
+            data = json.load(json_file)
+            return data
     else:
         return {"Error": "Data not found"}

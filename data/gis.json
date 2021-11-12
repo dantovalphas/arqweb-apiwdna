@@ -1,0 +1,21 @@
+{
+  "widget": "GIS_MAP",
+  "title": "Rentabilidad por mercado",
+  "sourceData": "RENTABILITY_BY_MARKET",
+  "zIndex": 0,
+  "itemsConfig": [],
+  "instanceConfig": [
+    {
+      "imageType": "assets",
+      "source": "/entropy/assets/gis.png",
+      "minWidth": "200"
+    }
+  ],
+  "dashboardConfig": {
+    "column": 8,
+    "row": 4,
+    "columnSpan": 2,
+    "rowSpan": 3,
+    "interaction": false
+  }
+}
