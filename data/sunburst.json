@@ -1,5 +1,5 @@
 {
-  "description": "Grafico de sunburst",
+  "description": "Sitios rentables y no rentables globalmente",
   "type": "SUNBURST_GRAPH",
   "name": "RENTABILIDAD",
   "values": [
