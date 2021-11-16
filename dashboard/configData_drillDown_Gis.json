@@ -1,6 +1,6 @@
 {
   "title": "DrillDown Mapa",
-  "columnDefinitions": "lg: 12, md: 10, sm: 6, xs: 4, xxs: 2",
+  "columnDefinitions": "12,10,6,4,2",
   "rowDefinitions": 3,
   "rowHeight": "300",
   "width": "*",
@@ -9,10 +9,17 @@
     {
       "widget": "GIS_MAP",
       "title": "Mapa",
-      "sourceData": "SOURCE_DATA_MAP",
+      "sourceData": "RENTABILITY_MARKET_GIS_DATA",
       "zIndex": 0,
       "itemsConfig": [],
-      "instanceConfig": [],
+      "instanceConfig": [
+        {
+          "request": {
+            "idData": 30,
+            "date": "2019-01-01"
+          }
+        }
+      ],
       "dashboardConfig": {
         "column": 0,
         "row": 0,

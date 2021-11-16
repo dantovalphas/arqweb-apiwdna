@@ -2,17 +2,20 @@
   "description": "Grafico de sunburst",
   "type": "SUNBURST_GRAPH",
   "name": "RENTABILIDAD",
-  "info": {
-    "drillDown": "ddDateTablecqi_60"
-  },
   "values": [
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "MAIN",
       "parent": "",
       "name": "&nbsp;",
       "value": null
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "INDOOR",
       "parent": "MAIN",
       "name": "INDOOR",
@@ -20,48 +23,72 @@
     },
 
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "HYBRID",
       "parent": "MAIN",
       "name": "HYBRID",
       "value": null
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "OUTDOOR",
       "parent": "MAIN",
       "name": "OUTDOOR",
       "value": null
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "INDOOR_NO_RENTABLE",
       "parent": "INDOOR",
       "name": "NO RENTABLE",
       "value": 50
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "INDOOR_RENTABLE",
       "parent": "INDOOR",
       "name": "RENTABLE",
       "value": 50
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "OUTDOOR_NO_RENTABLE",
       "parent": "OUTDOOR",
       "name": "NO RENTABLE",
       "value": 50
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "OUTDOOR_RENTABLE",
       "parent": "OUTDOOR",
       "name": "RENTABLE",
       "value": 50
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "HYBRID_NO_RENTABLE",
       "parent": "HYBRID",
       "name": "NO RENTABLE",
       "value": 50
     },
     {
+      "info": {
+        "drillDown": "ddDateTablecqi_60"
+      },
       "id": "HYBRID_RENTABLE",
       "parent": "HYBRID",
       "name": "RENTABLE",

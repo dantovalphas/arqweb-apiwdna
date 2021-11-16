@@ -31,6 +31,10 @@ def read_item(name: str):
         with open('./dashboard/configData_drillDown_donut.json') as json_file:
             data = json.load(json_file)
             return data
+    elif(name == "RENTABILITY_GIS_DASHBOARD"):
+        with open('./dashboard/configData_drillDown_Gis.json') as json_file:
+            data = json.load(json_file)
+            return data
     else:
         with open('./dashboard/configData.json') as json_file:
             data = json.load(json_file)
@@ -68,6 +72,10 @@ def read_item(sourceData: str):
             data = json.load(json_file)
             return data
     elif(sourceData == "RENTABILITY_BY_MARKET"):
+        with open('./data/gis_image.json') as json_file:
+            data = json.load(json_file)
+            return data
+    elif(sourceData == "RENTABILITY_MARKET_GIS_DATA"):
         with open('./data/gis.json') as json_file:
             data = json.load(json_file)
             return data

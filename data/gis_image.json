@@ -3,6 +3,7 @@
   "type": "gis",
   "name": "Rentabilidad por mercado",
   "info": {
-    "drillDownId": "2"
+    "drillDownId": "2",
+    "dashboardName": "RENTABILITY_GIS_DASHBOARD"
   }
 }
