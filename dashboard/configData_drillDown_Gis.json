@@ -1,0 +1,25 @@
+{
+  "title": "DrillDown Mapa",
+  "columnDefinitions": "lg: 12, md: 10, sm: 6, xs: 4, xxs: 2",
+  "rowDefinitions": 3,
+  "rowHeight": "300",
+  "width": "*",
+  "sidebar": false,
+  "items": [
+    {
+      "widget": "GIS_MAP",
+      "title": "Mapa",
+      "sourceData": "SOURCE_DATA_MAP",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 0,
+        "row": 0,
+        "columnSpan": 12,
+        "rowSpan": 3,
+        "interaction": true
+      }
+    }
+  ]
+}
