@@ -80,87 +80,8 @@
       "dashboardConfig": {
         "column": 0,
         "row": 0,
-        "columnSpan": 1,
-        "rowSpan": 1,
-        "interaction": false
-      }
-    },
-    {
-      "widget": "SUNBURST_GRAPH",
-      "title": "Sunburst",
-      "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
-      "zIndex": 0,
-      "itemsConfig": [
-        {
-          "id": "INDOOR",
-          "color": "#00FF00",
-          "colorVariation": {
-            "key": "brightness",
-            "to": -0.5
-          },
-          "colorByPoint": true
-        },
-        {
-          "id": "OUTDOOR",
-          "color": "#FF0000",
-          "colorVariation": {
-            "key": "brightness",
-            "to": -0.5
-          },
-          "colorByPoint": true
-        },
-        {
-          "id": "HYBRID",
-          "color": "#0000FF",
-          "colorVariation": {
-            "key": "brightness",
-            "to": -0.5
-          },
-          "colorByPoint": true
-        }
-      ],
-      "instanceConfig": [
-        {
-          "title": {
-            "text": "Sitios Rentables y no Rentables",
-            "style": {
-              "color": "#fff",
-              "align": "center",
-              "margin": "0",
-              "fontSize": "14px"
-            }
-          },
-          "description": {
-            "text": "",
-            "style": {
-              "color": "#fff",
-              "align": "center",
-              "margin": "0",
-              "fontSize": "12px"
-            }
-          },
-          "tooltip": {
-            "isHtmlFormat": "false",
-            "borderWidth": 1,
-            "backgroundColor": "none",
-            "pointFormat": "{point.name}: {point.value}",
-            "headerFormat": "",
-            "footerFormat": "",
-            "shadow": false,
-            "style": {
-              "fontSize": "18px",
-              "color": "#fff"
-            }
-          },
-          "rootColor": "transparent",
-          "allowDrillDown": false
-        }
-      ],
-      "dashboardConfig": {
-        "column": 1,
-        "row": 0,
-        "columnSpan": 1,
-        "rowSpan": 1,
+        "columnSpan": 2,
+        "rowSpan": 3,
         "interaction": false
       }
     },
@@ -238,8 +159,8 @@
       "dashboardConfig": {
         "column": 2,
         "row": 0,
-        "columnSpan": 1,
-        "rowSpan": 1,
+        "columnSpan": 2,
+        "rowSpan": 3,
         "interaction": false
       }
     },
@@ -315,10 +236,89 @@
         }
       ],
       "dashboardConfig": {
-        "column": 3,
+        "column": 4,
         "row": 0,
-        "columnSpan": 1,
-        "rowSpan": 1,
+        "columnSpan": 2,
+        "rowSpan": 3,
+        "interaction": false
+      }
+    },
+    {
+      "widget": "SUNBURST_GRAPH",
+      "title": "Sunburst",
+      "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
+      "zIndex": 0,
+      "itemsConfig": [
+        {
+          "id": "INDOOR",
+          "color": "#00FF00",
+          "colorVariation": {
+            "key": "brightness",
+            "to": -0.5
+          },
+          "colorByPoint": true
+        },
+        {
+          "id": "OUTDOOR",
+          "color": "#FF0000",
+          "colorVariation": {
+            "key": "brightness",
+            "to": -0.5
+          },
+          "colorByPoint": true
+        },
+        {
+          "id": "HYBRID",
+          "color": "#0000FF",
+          "colorVariation": {
+            "key": "brightness",
+            "to": -0.5
+          },
+          "colorByPoint": true
+        }
+      ],
+      "instanceConfig": [
+        {
+          "title": {
+            "text": "Sitios Rentables y no Rentables",
+            "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "14px"
+            }
+          },
+          "description": {
+            "text": "",
+            "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "12px"
+            }
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.name}: {point.value}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": false,
+            "style": {
+              "fontSize": "18px",
+              "color": "#fff"
+            }
+          },
+          "rootColor": "transparent",
+          "allowDrillDown": false
+        }
+      ],
+      "dashboardConfig": {
+        "column": 6,
+        "row": 0,
+        "columnSpan": 2,
+        "rowSpan": 3,
         "interaction": false
       }
     }
