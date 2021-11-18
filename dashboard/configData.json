@@ -1124,7 +1124,7 @@
         "row": 0,
         "columnSpan": 2,
         "rowSpan": 4,
-        "interaction": true,
+        "interaction": false,
         "resize": false
       }
     },
@@ -1199,7 +1199,8 @@
         "row": 4,
         "columnSpan": 2,
         "rowSpan": 3,
-        "interaction": false
+        "interaction": false,
+        "resize": true
       }
     },
     {
@@ -1241,7 +1242,8 @@
         "row": 4,
         "columnSpan": 2,
         "rowSpan": 3,
-        "interaction": false
+        "interaction": false,
+        "resize": true
       }
     },
     {
@@ -1315,7 +1317,8 @@
         "row": 4,
         "columnSpan": 2,
         "rowSpan": 3,
-        "interaction": false
+        "interaction": true,
+        "resize": true
       }
     },
     {
@@ -1336,7 +1339,8 @@
         "row": 4,
         "columnSpan": 2,
         "rowSpan": 3,
-        "interaction": false
+        "interaction": true,
+        "resize": true
       }
     }
   ]

@@ -7,7 +7,7 @@
   "sidebar": false,
   "items": [
     {
-      "widget": "GIS_MAP_GRAPH",
+      "widget": "GIS_MAP_KEPLER",
       "title": "Mapa",
       "sourceData": "RENTABILITY_MARKET_GIS_DATA",
       "zIndex": 0,
@@ -17,27 +17,16 @@
           "request": {
             "idData": 30,
             "date": "2019-01-01"
-          },
-          "colorField": { "name": "categorization" },
-          "colors": ["#FD0000", "#36FD00"],
-          "radius": 20,
-          "fieldsToShow": [
-            { "name": "date" },
-            { "name": "region" },
-            { "name": "city" },
-            { "name": "vendors" },
-            { "name": "on air" },
-            { "name": "4G Composite Quality" },
-            { "name": "categorization" }
-          ]
+          }
         }
       ],
       "dashboardConfig": {
         "column": 0,
         "row": 0,
         "columnSpan": 12,
-        "rowSpan": 3,
-        "interaction": true
+        "rowSpan": 6,
+        "interaction": true,
+        "resize": true
       }
     }
   ]

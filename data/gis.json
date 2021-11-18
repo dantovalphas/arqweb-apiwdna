@@ -5,6 +5,9 @@
   "layerId": "30|cqi_category|points|0",
   "layerName": "Cqi Category multivendor",
   "label": "points",
+  "colorField": { "name": "categorization" },
+  "colors": ["#FD0000", "#36FD00"],
+  "radius": 20,
   "data": [
     {
       "key": "CENTRO||AREAMETROPOLITANA",
@@ -2078,5 +2081,14 @@
         }
       ]
     }
+  ],
+  "fieldsToShow": [
+    { "name": "date" },
+    { "name": "region" },
+    { "name": "city" },
+    { "name": "vendors" },
+    { "name": "on air" },
+    { "name": "4G Composite Quality" },
+    { "name": "categorization" }
   ]
 }
