@@ -39,6 +39,10 @@ def read_item(name: str):
         with open('./dashboard/configData_drillDown_buble.json') as json_file:
             data = json.load(json_file)
             return data
+    elif(name == "DRILLDOWN_TABLE_MARKETS_INCOMES"):
+        with open('./dashboard/configData_drillDown_column.json') as json_file:
+            data = json.load(json_file)
+            return data
     else:
         with open('./dashboard/configData.json') as json_file:
             data = json.load(json_file)
@@ -85,6 +89,10 @@ def read_item(sourceData: str):
             return data
     elif(sourceData == "MOST_PROFITABLE_MARKETS_BY_REVENUE_BY_REGION"):
         with open('./data/table.json') as json_file:
+            data = json.load(json_file)
+            return data
+    elif(sourceData == "TOP_50_MARKETS"):
+        with open('./data/column.json') as json_file:
             data = json.load(json_file)
             return data
     else:

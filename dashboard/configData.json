@@ -1342,6 +1342,63 @@
         "interaction": true,
         "resize": true
       }
+    },
+    {
+      "widget": "SYNC_CHART",
+      "title": "Ingresos Top 50 Mercados",
+      "sourceData": "TOP_50_MARKETS",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [
+        {
+          "id": "K#TOP50_INCOMES",
+          "type": "column",
+          "legend": {
+            "enabled": false
+          },
+          "xAxisFormat": "- {value}",
+          "yAxisTitle": "",
+          "title": {
+            "text": "Ingresos TOP 50 Mercados (MXN)",
+            "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "16px"
+            }
+          },
+          "description": {
+            "text": "{info.marketsPerc} de mercados -> {info.incomesPerc} ingresos",
+            "style": {
+              "color": "#fff",
+              "align": "center",
+              "margin": "0",
+              "fontSize": "14px"
+            }
+          },
+          "tooltip": {
+            "isHtmlFormat": "false",
+            "valueDecimals": "2",
+            "borderWidth": 1,
+            "backgroundColor": "none",
+            "pointFormat": "{point.y}",
+            "headerFormat": "",
+            "footerFormat": "",
+            "shadow": true,
+            "style": {
+              "fontSize": "18px",
+              "color": "#fff"
+            }
+          }
+        }
+      ],
+      "dashboardConfig": {
+        "column": 10,
+        "row": 4,
+        "columnSpan": 2,
+        "rowSpan": 3,
+        "interaction": false
+      }
     }
   ]
 }
