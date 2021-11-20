@@ -35,6 +35,10 @@ def read_item(name: str):
         with open('./dashboard/configData_drillDown_Gis.json') as json_file:
             data = json.load(json_file)
             return data
+    elif("PROFITABLE_MARKETS_REGION_" in name):
+        with open('./dashboard/configData_drillDown_buble.json') as json_file:
+            data = json.load(json_file)
+            return data
     else:
         with open('./dashboard/configData.json') as json_file:
             data = json.load(json_file)
@@ -77,6 +81,10 @@ def read_item(sourceData: str):
             return data
     elif(sourceData == "RENTABILITY_MARKET_GIS_DATA"):
         with open('./data/gis.json') as json_file:
+            data = json.load(json_file)
+            return data
+    elif(sourceData == "MOST_PROFITABLE_MARKETS_BY_REVENUE_BY_REGION"):
+        with open('./data/table.json') as json_file:
             data = json.load(json_file)
             return data
     else:

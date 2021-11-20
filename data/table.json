@@ -1,0 +1,56 @@
+{
+  "description": "Tabla de top por rentabilidad/ingresos",
+  "type": "table",
+  "values": [
+    {
+      "month": "Jun-21",
+      "market": "Monterrey",
+      "region": "North",
+      "sites": 120,
+      "rentability": 1.2,
+      "incomes": 760,
+      "expenses": 95,
+      "cqi": 92
+    },
+    {
+      "month": "Jun-21",
+      "market": "Monterrey",
+      "region": "North",
+      "sites": 120,
+      "rentability": 1.2,
+      "incomes": 760,
+      "expenses": 95,
+      "cqi": 92
+    },
+    {
+      "month": "Jun-21",
+      "market": "Monterrey",
+      "region": "North",
+      "sites": 120,
+      "rentability": 1.2,
+      "incomes": 760,
+      "expenses": 95,
+      "cqi": 92
+    },
+    {
+      "month": "Jun-21",
+      "market": "Monterrey",
+      "region": "North",
+      "sites": 120,
+      "rentability": 1.2,
+      "incomes": 760,
+      "expenses": 95,
+      "cqi": 92
+    },
+    {
+      "month": "Jun-21",
+      "market": "Monterrey",
+      "region": "North",
+      "sites": 120,
+      "rentability": 1.2,
+      "incomes": 760,
+      "expenses": 95,
+      "cqi": 92
+    }
+  ]
+}
