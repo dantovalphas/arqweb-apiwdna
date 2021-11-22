@@ -687,7 +687,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -696,7 +696,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "14px"
             }
           }
@@ -1174,7 +1174,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -1225,7 +1225,7 @@
             "style": {
               "color": "#ffffff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "14px"
             }
           },
@@ -1292,7 +1292,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -1363,7 +1363,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "16px"
             }
           },
@@ -1372,7 +1372,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": "0",
+              "margin": 0,
               "fontSize": "14px"
             }
           },
