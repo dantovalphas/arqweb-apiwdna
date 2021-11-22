@@ -1368,7 +1368,7 @@
             }
           },
           "description": {
-            "text": "{info.marketsPerc} de mercados -> {info.incomesPerc} ingresos",
+            "text": "{marketsPerc} de mercados -> {incomesPerc} ingresos",
             "style": {
               "color": "#fff",
               "align": "center",
