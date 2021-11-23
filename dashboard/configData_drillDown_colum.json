@@ -19,7 +19,8 @@
         "columnSpan": 12,
         "rowSpan": 6,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     }
   ]

@@ -5,5 +5,23 @@
   "rowHeight": "300",
   "width": "*",
   "sidebar": false,
-  "items": []
+  "items": [
+    {
+      "widget": "TABLE",
+      "title": "Tabla",
+      "sourceData": "MOST_PROFITABLE_MARKETS_BY_REVENUE_BY_REGION",
+      "zIndex": 0,
+      "itemsConfig": [],
+      "instanceConfig": [],
+      "dashboardConfig": {
+        "column": 0,
+        "row": 0,
+        "columnSpan": 12,
+        "rowSpan": 6,
+        "interaction": false,
+        "resize": true,
+        "drag": true
+      }
+    }
+  ]
 }

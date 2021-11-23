@@ -213,7 +213,8 @@
         "columnSpan": 8,
         "rowSpan": 4,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -652,7 +653,8 @@
         "columnSpan": 2,
         "rowSpan": 4,
         "interaction": false,
-        "resize": false
+        "resize": false,
+        "drag": true
       }
     },
     {
@@ -708,7 +710,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": true,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -1125,7 +1128,8 @@
         "columnSpan": 2,
         "rowSpan": 4,
         "interaction": false,
-        "resize": false
+        "resize": false,
+        "drag": true
       }
     },
     {
@@ -1200,7 +1204,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -1243,7 +1248,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -1318,7 +1324,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": true,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -1340,7 +1347,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": true,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -1397,7 +1405,9 @@
         "row": 4,
         "columnSpan": 2,
         "rowSpan": 3,
-        "interaction": false
+        "interaction": false,
+        "resize": true,
+        "drag": true
       }
     }
   ]

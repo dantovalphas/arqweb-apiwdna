@@ -83,7 +83,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -163,7 +164,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -243,7 +245,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     },
     {
@@ -323,7 +326,8 @@
         "columnSpan": 2,
         "rowSpan": 3,
         "interaction": false,
-        "resize": true
+        "resize": true,
+        "drag": true
       }
     }
   ]
