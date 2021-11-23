@@ -1372,7 +1372,7 @@
             "style": {
               "color": "#fff",
               "align": "center",
-              "margin": 0,
+              "margin": 5,
               "fontSize": "14px"
             }
           },

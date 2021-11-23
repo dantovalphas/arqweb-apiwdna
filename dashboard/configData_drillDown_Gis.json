@@ -26,7 +26,8 @@
         "columnSpan": 12,
         "rowSpan": 6,
         "interaction": true,
-        "resize": true
+        "resize": true,
+        "drag": false
       }
     }
   ]
