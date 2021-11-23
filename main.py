@@ -89,7 +89,7 @@ def read_item(sourceData: str):
             data = json.load(json_file)
             return data
     elif(sourceData == "MOST_PROFITABLE_MARKETS_BY_REVENUE_BY_REGION"):
-        with open('./data/table.json') as json_file:
+        with open('./data/table2.json') as json_file:
             data = json.load(json_file)
             return data
     elif(sourceData == "TOP_50_MARKETS"):
