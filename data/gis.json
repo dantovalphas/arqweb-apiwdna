@@ -1,2094 +1,2128 @@
-{
-  "description": "Calidad Rentable Ranking Mercado",
-  "type": "cqi_category",
-  "name": "Rentabilidad por mercado",
-  "layerId": "30|cqi_category|points|0",
-  "layerName": "Cqi Category multivendor",
-  "label": "points",
-  "colorField": { "name": "categorization" },
-  "colors": ["#FD0000", "#36FD00"],
-  "radius": 20,
-  "data": [
-    {
-      "key": "CENTRO||AREAMETROPOLITANA",
-      "name": "AREAMETROPOLITANA",
-      "type": "point",
-      "coord": [-99.156799, 19.209299],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "CENTRO",
-      "city": "AREAMETROPOLITANA",
-      "vendors": "H4G",
-      "on air": 1,
-      "4G Composite Quality": 78.11,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "CENTRO",
-            "AREAMETROPOLITANA",
-            "H4G",
-            1,
-            78.11,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+[
+  {
+    "description": "Calidad Rentable Ranking Mercado",
+    "type": "cqi_category",
+    "name": "Rentabilidad por mercado",
+    "layerId": "30|cqi_category|points|0",
+    "layerName": "Cqi Category multivendor",
+    "label": "points",
+    "colorField": { "name": "categorization" },
+    "colors": ["#FD0000", "#36FD00"],
+    "radius": 20,
+    "data": [
+      {
+        "key": "CENTRO||AREAMETROPOLITANA",
+        "name": "AREAMETROPOLITANA",
+        "type": "point",
+        "coord": [-99.156799, 19.209299],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "CENTRO",
+        "city": "AREAMETROPOLITANA",
+        "vendors": "H4G",
+        "on air": 1,
+        "4G Composite Quality": 78.11,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||BAHIA_DE_KINO",
-      "name": "BAHIA_DE_KINO",
-      "type": "point",
-      "coord": [-111.956001, 28.8328],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "BAHIA_DE_KINO",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "BAHIA_DE_KINO",
-            "E4G",
-            1,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "CENTRO",
+              "AREAMETROPOLITANA",
+              "H4G",
+              1,
+              78.11,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||DTOS_HUATABAMPO",
-      "name": "DTOS_HUATABAMPO",
-      "type": "point",
-      "coord": [-109.651001, 26.9832],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "DTOS_HUATABAMPO",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "DTOS_HUATABAMPO",
-            "E4G",
-            1,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||BAHIA_DE_KINO",
+        "name": "BAHIA_DE_KINO",
+        "type": "point",
+        "coord": [-111.956001, 28.8328],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "BAHIA_DE_KINO",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||EMPALME",
-      "name": "EMPALME",
-      "type": "point",
-      "coord": [-110.7960015, 27.95545],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "EMPALME",
-      "vendors": "E4G",
-      "on air": 2,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "EMPALME", "E4G", 2, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "BAHIA_DE_KINO",
+              "E4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||ENSENADA",
-      "name": "ENSENADA",
-      "type": "point",
-      "coord": [-116.631477, 31.872978],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "ENSENADA",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": 96.67,
-      "categorization": "NORMAL",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "ENSENADA", "E4G", 1, 96.67, "NORMAL"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||DTOS_HUATABAMPO",
+        "name": "DTOS_HUATABAMPO",
+        "type": "point",
+        "coord": [-109.651001, 26.9832],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "DTOS_HUATABAMPO",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||ESPERANZA",
-      "name": "ESPERANZA",
-      "type": "point",
-      "coord": [-109.9453356667, 27.5726],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "ESPERANZA",
-      "vendors": "E4G",
-      "on air": 3,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "ESPERANZA", "E4G", 3, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "DTOS_HUATABAMPO",
+              "E4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||GUAYMAS",
-      "name": "GUAYMAS",
-      "type": "point",
-      "coord": [-110.9064384375, 27.9189439375],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "GUAYMAS",
-      "vendors": "E4G",
-      "on air": 16,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "GUAYMAS", "E4G", 16, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||EMPALME",
+        "name": "EMPALME",
+        "type": "point",
+        "coord": [-110.7960015, 27.95545],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "EMPALME",
+        "vendors": "E4G",
+        "on air": 2,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HERMOSILLO",
-      "name": "HERMOSILLO",
-      "type": "point",
-      "coord": [-110.9709391837, 29.0835631837],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HERMOSILLO",
-      "vendors": "E4G",
-      "on air": 49,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "HERMOSILLO", "E4G", 49, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "EMPALME", "E4G", 2, null, "CHRONIC"]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HUATABAMPO",
-      "name": "HUATABAMPO",
-      "type": "point",
-      "coord": [-109.639999, 26.8346],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HUATABAMPO",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "HUATABAMPO", "E4G", 1, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||ENSENADA",
+        "name": "ENSENADA",
+        "type": "point",
+        "coord": [-116.631477, 31.872978],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "ENSENADA",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": 96.67,
+        "categorization": "NORMAL",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_DTOS_B_DE_KINO",
-      "name": "HW_DTOS_B_DE_KINO",
-      "type": "point",
-      "coord": [-111.386002, 28.8573],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_DTOS_B_DE_KINO",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_DTOS_B_DE_KINO",
-            "E4G",
-            1,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "ENSENADA", "E4G", 1, 96.67, "NORMAL"]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_DTOS_CIUDAD_OBREGON",
-      "name": "HW_DTOS_CIUDAD_OBREGON",
-      "type": "point",
-      "coord": [-109.8561656667, 27.3289498333],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_DTOS_CIUDAD_OBREGON",
-      "vendors": "E4G",
-      "on air": 6,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_DTOS_CIUDAD_OBREGON",
-            "E4G",
-            6,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||ESPERANZA",
+        "name": "ESPERANZA",
+        "type": "point",
+        "coord": [-109.9453356667, 27.5726],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "ESPERANZA",
+        "vendors": "E4G",
+        "on air": 3,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_DTOS_GUAYMAS",
-      "name": "HW_DTOS_GUAYMAS",
-      "type": "point",
-      "coord": [-111.07200225, 27.960475],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_DTOS_GUAYMAS",
-      "vendors": "E4G",
-      "on air": 4,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_DTOS_GUAYMAS",
-            "E4G",
-            4,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "ESPERANZA", "E4G", 3, null, "CHRONIC"]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_ENSENADA-ROSARITO-TIJUANA",
-      "name": "HW_ENSENADA-ROSARITO-TIJUANA",
-      "type": "point",
-      "coord": [-116.696228, 31.900616],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_ENSENADA-ROSARITO-TIJUANA",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": 93.39,
-      "categorization": "NORMAL",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_ENSENADA-ROSARITO-TIJUANA",
-            "E4G",
-            1,
-            93.39,
-            "NORMAL"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||GUAYMAS",
+        "name": "GUAYMAS",
+        "type": "point",
+        "coord": [-110.9064384375, 27.9189439375],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "GUAYMAS",
+        "vendors": "E4G",
+        "on air": 16,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_HERMOSILLO-B_DE_KINO",
-      "name": "HW_HERMOSILLO-B_DE_KINO",
-      "type": "point",
-      "coord": [-111.141998, 29.0333],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_HERMOSILLO-B_DE_KINO",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_HERMOSILLO-B_DE_KINO",
-            "E4G",
-            1,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "GUAYMAS", "E4G", 16, null, "CHRONIC"]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_HERMOSILLO-GUAYMAS",
-      "name": "HW_HERMOSILLO-GUAYMAS",
-      "type": "point",
-      "coord": [-111.000333, 28.516267],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_HERMOSILLO-GUAYMAS",
-      "vendors": "E4G",
-      "on air": 3,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_HERMOSILLO-GUAYMAS",
-            "E4G",
-            3,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HERMOSILLO",
+        "name": "HERMOSILLO",
+        "type": "point",
+        "coord": [-110.9709391837, 29.0835631837],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HERMOSILLO",
+        "vendors": "E4G",
+        "on air": 49,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_HERMOSILLO-M_DE_KINO",
-      "name": "HW_HERMOSILLO-M_DE_KINO",
-      "type": "point",
-      "coord": [-111.0579998571, 29.9307862857],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_HERMOSILLO-M_DE_KINO",
-      "vendors": "E4G",
-      "on air": 7,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_HERMOSILLO-M_DE_KINO",
-            "E4G",
-            7,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HERMOSILLO",
+              "E4G",
+              49,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_M_DE_KINO-NOGALES",
-      "name": "HW_M_DE_KINO-NOGALES",
-      "type": "point",
-      "coord": [-110.9034318, 30.9557178],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_M_DE_KINO-NOGALES",
-      "vendors": "E4G",
-      "on air": 4,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_M_DE_KINO-NOGALES",
-            "E4G",
-            4,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HUATABAMPO",
+        "name": "HUATABAMPO",
+        "type": "point",
+        "coord": [-109.639999, 26.8346],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HUATABAMPO",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_NAVOJOA-LOS_MOCHIS",
-      "name": "HW_NAVOJOA-LOS_MOCHIS",
-      "type": "point",
-      "coord": [-109.251751, 26.723375],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_NAVOJOA-LOS_MOCHIS",
-      "vendors": "E4G",
-      "on air": 4,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_NAVOJOA-LOS_MOCHIS",
-            "E4G",
-            4,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HUATABAMPO",
+              "E4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||HW_VALLE_DE_MEXICALI",
-      "name": "HW_VALLE_DE_MEXICALI",
-      "type": "point",
-      "coord": [-114.9515, 32.28545],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "HW_VALLE_DE_MEXICALI",
-      "vendors": "E4G",
-      "on air": 2,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "HW_VALLE_DE_MEXICALI",
-            "E4G",
-            2,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HW_DTOS_B_DE_KINO",
+        "name": "HW_DTOS_B_DE_KINO",
+        "type": "point",
+        "coord": [-111.386002, 28.8573],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_DTOS_B_DE_KINO",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||NAVOJOA",
-      "name": "NAVOJOA",
-      "type": "point",
-      "coord": [-109.4460003333, 27.0695113333],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "NAVOJOA",
-      "vendors": "E4G",
-      "on air": 9,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "NAVOJOA", "E4G", 9, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_DTOS_B_DE_KINO",
+              "E4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||NOGALES",
-      "name": "NOGALES",
-      "type": "point",
-      "coord": [-110.9445238095, 31.2916808095],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "NOGALES",
-      "vendors": "E4G",
-      "on air": 21,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "NOGALES", "E4G", 21, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HW_DTOS_CIUDAD_OBREGON",
+        "name": "HW_DTOS_CIUDAD_OBREGON",
+        "type": "point",
+        "coord": [-109.8561656667, 27.3289498333],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_DTOS_CIUDAD_OBREGON",
+        "vendors": "E4G",
+        "on air": 6,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||OBREGON",
-      "name": "OBREGON",
-      "type": "point",
-      "coord": [-109.94156, 27.48265208],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "OBREGON",
-      "vendors": "E4G",
-      "on air": 25,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "OBREGON", "E4G", 25, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_DTOS_CIUDAD_OBREGON",
+              "E4G",
+              6,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||PTO_PENASCO",
-      "name": "PTO_PENASCO",
-      "type": "point",
-      "coord": [-113.535, 31.315049],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "PTO_PENASCO",
-      "vendors": "E4G",
-      "on air": 2,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "PTO_PENASCO", "E4G", 2, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HW_DTOS_GUAYMAS",
+        "name": "HW_DTOS_GUAYMAS",
+        "type": "point",
+        "coord": [-111.07200225, 27.960475],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_DTOS_GUAYMAS",
+        "vendors": "E4G",
+        "on air": 4,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||PUEBLO_MAGICO_MAGDALENA_DE_KINO",
-      "name": "PUEBLO_MAGICO_MAGDALENA_DE_KINO",
-      "type": "point",
-      "coord": [-110.978996, 30.632],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "PUEBLO_MAGICO_MAGDALENA_DE_KINO",
-      "vendors": "E4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "PUEBLO_MAGICO_MAGDALENA_DE_KINO",
-            "E4G",
-            1,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_DTOS_GUAYMAS",
+              "E4G",
+              4,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||RURAL",
-      "name": "RURAL",
-      "type": "point",
-      "coord": [-112.7922083333, 30.009917],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "RURAL",
-      "vendors": "E4G",
-      "on air": 3,
-      "4G Composite Quality": 87.98,
-      "categorization": "NORMAL",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "NORTH_WEST", "RURAL", "E4G", 3, 87.98, "NORMAL"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HW_ENSENADA-ROSARITO-TIJUANA",
+        "name": "HW_ENSENADA-ROSARITO-TIJUANA",
+        "type": "point",
+        "coord": [-116.696228, 31.900616],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_ENSENADA-ROSARITO-TIJUANA",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": 93.39,
+        "categorization": "NORMAL",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "NORTH_WEST||SAN_LUIS_RIO_COLORADO",
-      "name": "SAN_LUIS_RIO_COLORADO",
-      "type": "point",
-      "coord": [-114.7660998, 32.4563796],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "NORTH_WEST",
-      "city": "SAN_LUIS_RIO_COLORADO",
-      "vendors": "E4G",
-      "on air": 10,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "NORTH_WEST",
-            "SAN_LUIS_RIO_COLORADO",
-            "E4G",
-            10,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_ENSENADA-ROSARITO-TIJUANA",
+              "E4G",
+              1,
+              93.39,
+              "NORMAL"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "PACIFIC||AGUASCALIENTES",
-      "name": "AGUASCALIENTES",
-      "type": "point",
-      "coord": [-102.289833, 21.8850142381],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "PACIFIC",
-      "city": "AGUASCALIENTES",
-      "vendors": "H4G",
-      "on air": 42,
-      "4G Composite Quality": 90.7,
-      "categorization": "NORMAL",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "PACIFIC", "AGUASCALIENTES", "H4G", 42, 90.7, "NORMAL"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HW_HERMOSILLO-B_DE_KINO",
+        "name": "HW_HERMOSILLO-B_DE_KINO",
+        "type": "point",
+        "coord": [-111.141998, 29.0333],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_HERMOSILLO-B_DE_KINO",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "PACIFIC||HW_LEON-AGUASCALIENTES_AUTP",
-      "name": "HW_LEON-AGUASCALIENTES_AUTP",
-      "type": "point",
-      "coord": [-102.2939985, 21.72785],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "PACIFIC",
-      "city": "HW_LEON-AGUASCALIENTES_AUTP",
-      "vendors": "H4G",
-      "on air": 2,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "PACIFIC",
-            "HW_LEON-AGUASCALIENTES_AUTP",
-            "H4G",
-            2,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_HERMOSILLO-B_DE_KINO",
+              "E4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "SOUTH||CAMPECHE",
-      "name": "CAMPECHE",
-      "type": "point",
-      "coord": [-90.5286672083, 19.834058375],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "SOUTH",
-      "city": "CAMPECHE",
-      "vendors": "H4G",
-      "on air": 24,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          ["2019-03-01", "SOUTH", "CAMPECHE", "H4G", 24, null, "CHRONIC"]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HW_HERMOSILLO-GUAYMAS",
+        "name": "HW_HERMOSILLO-GUAYMAS",
+        "type": "point",
+        "coord": [-111.000333, 28.516267],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_HERMOSILLO-GUAYMAS",
+        "vendors": "E4G",
+        "on air": 3,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "SOUTH||HW_CAMPECHE-CHAMPOTON",
-      "name": "HW_CAMPECHE-CHAMPOTON",
-      "type": "point",
-      "coord": [-90.6493, 19.7015],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "SOUTH",
-      "city": "HW_CAMPECHE-CHAMPOTON",
-      "vendors": "H4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "SOUTH",
-            "HW_CAMPECHE-CHAMPOTON",
-            "H4G",
-            1,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_HERMOSILLO-GUAYMAS",
+              "E4G",
+              3,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "SOUTH||HW_CAMPECHE-MERIDA",
-      "name": "HW_CAMPECHE-MERIDA",
-      "type": "point",
-      "coord": [-90.4076, 19.920099],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "SOUTH",
-      "city": "HW_CAMPECHE-MERIDA",
-      "vendors": "H4G",
-      "on air": 1,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "SOUTH",
-            "HW_CAMPECHE-MERIDA",
-            "H4G",
-            1,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+      {
+        "key": "NORTH_WEST||HW_HERMOSILLO-M_DE_KINO",
+        "name": "HW_HERMOSILLO-M_DE_KINO",
+        "type": "point",
+        "coord": [-111.0579998571, 29.9307862857],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_HERMOSILLO-M_DE_KINO",
+        "vendors": "E4G",
+        "on air": 7,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
-      },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    },
-    {
-      "key": "SOUTH||TUXTLA_GUTIERREZ",
-      "name": "TUXTLA_GUTIERREZ",
-      "type": "point",
-      "coord": [-93.1306953636, 16.7545773182],
-      "icon": "cqi_city",
-      "date": "2019-03-01",
-      "region": "SOUTH",
-      "city": "TUXTLA_GUTIERREZ",
-      "vendors": "H4G",
-      "on air": 22,
-      "4G Composite Quality": null,
-      "categorization": "CHRONIC",
-      "description": {
-        "alias": [
-          "date",
-          "region",
-          "city",
-          "vendors",
-          "on air",
-          "4G Composite Quality",
-          "categorization"
-        ],
-        "data": [
-          [
-            "2019-03-01",
-            "SOUTH",
-            "TUXTLA_GUTIERREZ",
-            "H4G",
-            22,
-            null,
-            "CHRONIC"
-          ]
-        ],
-        "threshold": {
-          "5": [
-            { "max": null, "min": 85, "color": "#3cb371" },
-            { "max": 85, "min": 68, "color": "#ffa500" },
-            { "max": 68, "min": null, "color": "#ff0000" }
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_HERMOSILLO-M_DE_KINO",
+              "E4G",
+              7,
+              null,
+              "CHRONIC"
+            ]
           ],
-          "6": [
-            { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
-            { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
-            { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
-          ]
-        }
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
       },
-      "functionality": [
-        {
-          "id": "ran_cqi|graph",
-          "name": "CQI",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
+      {
+        "key": "NORTH_WEST||HW_M_DE_KINO-NOGALES",
+        "name": "HW_M_DE_KINO-NOGALES",
+        "type": "point",
+        "coord": [-110.9034318, 30.9557178],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_M_DE_KINO-NOGALES",
+        "vendors": "E4G",
+        "on air": 4,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_M_DE_KINO-NOGALES",
+              "E4G",
+              4,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
         },
-        {
-          "id": "ran_cqi|table",
-          "name": "CQI by vendor",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||HW_NAVOJOA-LOS_MOCHIS",
+        "name": "HW_NAVOJOA-LOS_MOCHIS",
+        "type": "point",
+        "coord": [-109.251751, 26.723375],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_NAVOJOA-LOS_MOCHIS",
+        "vendors": "E4G",
+        "on air": 4,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_NAVOJOA-LOS_MOCHIS",
+              "E4G",
+              4,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
         },
-        {
-          "id": "ran_cqi|sites",
-          "name": "Sites",
-          "required": [],
-          "types": ["cqi", "cqi_category"]
-        }
-      ]
-    }
-  ],
-  "fieldsToShow": [
-    { "name": "date" },
-    { "name": "region" },
-    { "name": "city" },
-    { "name": "vendors" },
-    { "name": "on air" },
-    { "name": "4G Composite Quality" },
-    { "name": "categorization" }
-  ]
-}
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||HW_VALLE_DE_MEXICALI",
+        "name": "HW_VALLE_DE_MEXICALI",
+        "type": "point",
+        "coord": [-114.9515, 32.28545],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "HW_VALLE_DE_MEXICALI",
+        "vendors": "E4G",
+        "on air": 2,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "HW_VALLE_DE_MEXICALI",
+              "E4G",
+              2,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||NAVOJOA",
+        "name": "NAVOJOA",
+        "type": "point",
+        "coord": [-109.4460003333, 27.0695113333],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "NAVOJOA",
+        "vendors": "E4G",
+        "on air": 9,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "NAVOJOA", "E4G", 9, null, "CHRONIC"]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||NOGALES",
+        "name": "NOGALES",
+        "type": "point",
+        "coord": [-110.9445238095, 31.2916808095],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "NOGALES",
+        "vendors": "E4G",
+        "on air": 21,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "NOGALES", "E4G", 21, null, "CHRONIC"]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||OBREGON",
+        "name": "OBREGON",
+        "type": "point",
+        "coord": [-109.94156, 27.48265208],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "OBREGON",
+        "vendors": "E4G",
+        "on air": 25,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "OBREGON", "E4G", 25, null, "CHRONIC"]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||PTO_PENASCO",
+        "name": "PTO_PENASCO",
+        "type": "point",
+        "coord": [-113.535, 31.315049],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "PTO_PENASCO",
+        "vendors": "E4G",
+        "on air": 2,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "PTO_PENASCO",
+              "E4G",
+              2,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||PUEBLO_MAGICO_MAGDALENA_DE_KINO",
+        "name": "PUEBLO_MAGICO_MAGDALENA_DE_KINO",
+        "type": "point",
+        "coord": [-110.978996, 30.632],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "PUEBLO_MAGICO_MAGDALENA_DE_KINO",
+        "vendors": "E4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "PUEBLO_MAGICO_MAGDALENA_DE_KINO",
+              "E4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||RURAL",
+        "name": "RURAL",
+        "type": "point",
+        "coord": [-112.7922083333, 30.009917],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "RURAL",
+        "vendors": "E4G",
+        "on air": 3,
+        "4G Composite Quality": 87.98,
+        "categorization": "NORMAL",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            ["2019-03-01", "NORTH_WEST", "RURAL", "E4G", 3, 87.98, "NORMAL"]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "NORTH_WEST||SAN_LUIS_RIO_COLORADO",
+        "name": "SAN_LUIS_RIO_COLORADO",
+        "type": "point",
+        "coord": [-114.7660998, 32.4563796],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "NORTH_WEST",
+        "city": "SAN_LUIS_RIO_COLORADO",
+        "vendors": "E4G",
+        "on air": 10,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "NORTH_WEST",
+              "SAN_LUIS_RIO_COLORADO",
+              "E4G",
+              10,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "PACIFIC||AGUASCALIENTES",
+        "name": "AGUASCALIENTES",
+        "type": "point",
+        "coord": [-102.289833, 21.8850142381],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "PACIFIC",
+        "city": "AGUASCALIENTES",
+        "vendors": "H4G",
+        "on air": 42,
+        "4G Composite Quality": 90.7,
+        "categorization": "NORMAL",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "PACIFIC",
+              "AGUASCALIENTES",
+              "H4G",
+              42,
+              90.7,
+              "NORMAL"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "PACIFIC||HW_LEON-AGUASCALIENTES_AUTP",
+        "name": "HW_LEON-AGUASCALIENTES_AUTP",
+        "type": "point",
+        "coord": [-102.2939985, 21.72785],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "PACIFIC",
+        "city": "HW_LEON-AGUASCALIENTES_AUTP",
+        "vendors": "H4G",
+        "on air": 2,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "PACIFIC",
+              "HW_LEON-AGUASCALIENTES_AUTP",
+              "H4G",
+              2,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "SOUTH||CAMPECHE",
+        "name": "CAMPECHE",
+        "type": "point",
+        "coord": [-90.5286672083, 19.834058375],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "SOUTH",
+        "city": "CAMPECHE",
+        "vendors": "H4G",
+        "on air": 24,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            ["2019-03-01", "SOUTH", "CAMPECHE", "H4G", 24, null, "CHRONIC"]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "SOUTH||HW_CAMPECHE-CHAMPOTON",
+        "name": "HW_CAMPECHE-CHAMPOTON",
+        "type": "point",
+        "coord": [-90.6493, 19.7015],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "SOUTH",
+        "city": "HW_CAMPECHE-CHAMPOTON",
+        "vendors": "H4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "SOUTH",
+              "HW_CAMPECHE-CHAMPOTON",
+              "H4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "SOUTH||HW_CAMPECHE-MERIDA",
+        "name": "HW_CAMPECHE-MERIDA",
+        "type": "point",
+        "coord": [-90.4076, 19.920099],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "SOUTH",
+        "city": "HW_CAMPECHE-MERIDA",
+        "vendors": "H4G",
+        "on air": 1,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "SOUTH",
+              "HW_CAMPECHE-MERIDA",
+              "H4G",
+              1,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      },
+      {
+        "key": "SOUTH||TUXTLA_GUTIERREZ",
+        "name": "TUXTLA_GUTIERREZ",
+        "type": "point",
+        "coord": [-93.1306953636, 16.7545773182],
+        "icon": "cqi_city",
+        "date": "2019-03-01",
+        "region": "SOUTH",
+        "city": "TUXTLA_GUTIERREZ",
+        "vendors": "H4G",
+        "on air": 22,
+        "4G Composite Quality": null,
+        "categorization": "CHRONIC",
+        "description": {
+          "alias": [
+            "date",
+            "region",
+            "city",
+            "vendors",
+            "on air",
+            "4G Composite Quality",
+            "categorization"
+          ],
+          "data": [
+            [
+              "2019-03-01",
+              "SOUTH",
+              "TUXTLA_GUTIERREZ",
+              "H4G",
+              22,
+              null,
+              "CHRONIC"
+            ]
+          ],
+          "threshold": {
+            "5": [
+              { "max": null, "min": 85, "color": "#3cb371" },
+              { "max": 85, "min": 68, "color": "#ffa500" },
+              { "max": 68, "min": null, "color": "#ff0000" }
+            ],
+            "6": [
+              { "text": "NORMAL", "color": "#36FD00", "draw": "cell" },
+              { "text": "ACUTE", "color": "#FD8600", "draw": "cell" },
+              { "text": "CHRONIC", "color": "#FD0000", "draw": "cell" }
+            ]
+          }
+        },
+        "functionality": [
+          {
+            "id": "ran_cqi|graph",
+            "name": "CQI",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|table",
+            "name": "CQI by vendor",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          },
+          {
+            "id": "ran_cqi|sites",
+            "name": "Sites",
+            "required": [],
+            "types": ["cqi", "cqi_category"]
+          }
+        ]
+      }
+    ],
+    "fieldsToShow": [
+      { "name": "date" },
+      { "name": "region" },
+      { "name": "city" },
+      { "name": "vendors" },
+      { "name": "on air" },
+      { "name": "4G Composite Quality" },
+      { "name": "categorization" }
+    ]
+  }
+]
