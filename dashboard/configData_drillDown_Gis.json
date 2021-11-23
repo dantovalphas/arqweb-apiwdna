@@ -4,7 +4,13 @@
   "rowDefinitions": 3,
   "rowHeight": "300",
   "width": "*",
-  "sidebar": false,
+  "sidebar": {
+    "enabled": false,
+    "width": "300",
+    "height": "*",
+    "title": "Sidebar",
+    "content": []
+  },
   "items": [
     {
       "widget": "GIS_MAP_KEPLER",

@@ -4,7 +4,13 @@
   "rowDefinitions": 7,
   "rowHeight": "300",
   "columnWidth": "*",
-  "sidebar": false,
+  "sidebar": {
+    "enabled": false,
+    "width": "300",
+    "height": "*",
+    "title": "Sidebar",
+    "content": []
+  },
   "items": [
     {
       "widget": "SYNC_CHART",

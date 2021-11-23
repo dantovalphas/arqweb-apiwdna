@@ -4,7 +4,31 @@
   "rowDefinitions": 3,
   "rowHeight": "300",
   "width": "*",
-  "sidebar": false,
+  "sidebar": {
+    "enabled": true,
+    "width": "300",
+    "height": "*",
+    "title": "Sidebar",
+    "content": [
+      {
+        "type": "datetime",
+        "widget": "modern_sidebar",
+        "granularity": ["day", "week", "month"],
+        "queryParam": "arrayFilterDate"
+      },
+      {
+        "type": "text",
+        "widget": "text_field",
+        "queryParam": "query"
+      },
+      {
+        "type": "text",
+        "widget": "select2",
+        "options": ["1|AZRQ1", "2|AZRQ2", "3|AZRQ3"],
+        "queryParam": "region"
+      }
+    ]
+  },
   "items": [
     {
       "widget": "TABLE",
