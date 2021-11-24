@@ -13,7 +13,7 @@
       {
         "type": "datetime",
         "widget": "modern_sidebar",
-        "granularity": ["day", "week", "month"],
+        "granularity": ["24h", "7d", "30d"],
         "queryParam": "arrayFilterDate"
       },
       {
