@@ -5,6 +5,10 @@
   "values": [
     {
       "id": "K#PROFITABLE_MARKETS||REGION_0",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_MARKETS_REGION_0"
+      },
       "name": "PACIFIC",
       "data": [
         {
@@ -75,6 +79,10 @@
     {
       "id": "K#PROFITABLE_MARKETS||REGION_1",
       "name": "NORTH",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_MARKETS_REGION_1"
+      },
       "data": [
         {
           "info": {
@@ -144,6 +152,10 @@
     {
       "id": "K#PROFITABLE_MARKETS||REGION_2",
       "name": "CENTRO",
+      "info": {
+        "drillDown": "ddDateTablecqi_60",
+        "dashboardName": "PROFITABLE_MARKETS_REGION_2"
+      },
       "data": [
         {
           "info": {
