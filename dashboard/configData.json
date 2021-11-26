@@ -1168,6 +1168,7 @@
           "zMax": 4000,
           "zMin": 0,
           "gravitationalConstant": 0.05,
+          "drillDownMode": "external",
           "labels": {
             "textColor": "#000000",
             "fontSize": "12",
@@ -1288,6 +1289,7 @@
           "zMax": 4000,
           "zMin": 0,
           "gravitationalConstant": 0.05,
+          "drillDownMode": "external",
           "labels": {
             "textColor": "#000000",
             "fontSize": "12",
