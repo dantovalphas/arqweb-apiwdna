@@ -5,11 +5,29 @@
   "rowHeight": "300",
   "columnWidth": "*",
   "sidebar": {
-    "enabled": false,
+    "enabled": true,
     "width": "300",
     "height": "*",
     "title": "Sidebar",
-    "content": []
+    "content": [
+      {
+        "type": "datetime",
+        "widget": "modern_sidebar",
+        "granularity": ["24h", "7d", "30d"],
+        "queryParam": "arrayFilterDate"
+      },
+      {
+        "type": "text",
+        "widget": "text_field",
+        "queryParam": "query"
+      },
+      {
+        "type": "text",
+        "widget": "select2",
+        "options": ["1|AZRQ1", "2|AZRQ2", "3|AZRQ3"],
+        "queryParam": "region"
+      }
+    ]
   },
   "items": [
     {
