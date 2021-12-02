@@ -13,6 +13,7 @@
   },
   "items": [
     {
+      "id": "GIS_MAP_KEPLER_1",
       "widget": "GIS_MAP_KEPLER",
       "title": "Mapa",
       "sourceData": "RENTABILITY_MARKET_GIS_DATA",

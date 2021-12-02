@@ -31,6 +31,7 @@
   },
   "items": [
     {
+      "id": "1",
       "widget": "TABLE",
       "title": "Tabla",
       "sourceData": "MOST_PROFITABLE_MARKETS_BY_REVENUE_BY_REGION",

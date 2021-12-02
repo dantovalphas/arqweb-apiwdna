@@ -13,6 +13,7 @@
   },
   "items": [
     {
+      "id": "1",
       "widget": "SUNBURST_GRAPH",
       "title": "Sunburst",
       "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
@@ -94,6 +95,7 @@
       }
     },
     {
+      "id": "2",
       "widget": "SUNBURST_GRAPH",
       "title": "Sunburst",
       "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
@@ -175,6 +177,7 @@
       }
     },
     {
+      "id": "3",
       "widget": "SUNBURST_GRAPH",
       "title": "Sunburst",
       "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
@@ -256,6 +259,7 @@
       }
     },
     {
+      "id": "4",
       "widget": "SUNBURST_GRAPH",
       "title": "Sunburst",
       "sourceData": "PROFITABLE_AND_UNPROFITABLE_SITES_DATA",
