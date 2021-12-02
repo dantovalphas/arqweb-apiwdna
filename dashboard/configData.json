@@ -1241,7 +1241,8 @@
       }
     },
     {
-      "widget": "HEATMAP_GRAPH_1",
+      "id": "HEATMAP_GRAPH_1",
+      "widget": "HEATMAP_GRAPH",
       "title": "Estimación de ingresos",
       "sourceData": "ESTIMATED_INCOME",
       "zIndex": 0,
@@ -1285,7 +1286,8 @@
       }
     },
     {
-      "widget": "BUBLE_GRAPH_2",
+      "id": "BUBLE_GRAPH_2",
+      "widget": "BUBLE_GRAPH",
       "title": "Mercados con mas gasto por region",
       "sourceData": "PROFITABLE_MARKETS_BYREGIONS",
       "zIndex": 0,
@@ -1362,7 +1364,8 @@
       }
     },
     {
-      "widget": "GIS_MAP_1",
+      "id": "GIS_MAP_1",
+      "widget": "GIS_MAP",
       "title": "Rentabilidad por mercado",
       "sourceData": "RENTABILITY_BY_MARKET",
       "zIndex": 0,
@@ -1385,7 +1388,8 @@
       }
     },
     {
-      "widget": "SYNC_CHART_2",
+      "id": "SYNC_CHART_2",
+      "widget": "SYNC_CHART",
       "title": "Ingresos Top 50 Mercados",
       "sourceData": "TOP_50_MARKETS",
       "zIndex": 0,
