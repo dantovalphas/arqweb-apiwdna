@@ -72,7 +72,7 @@ def read_item(sourceData: str):
         with open('./data/pieGraphsMap_2.json') as json_file:
             data = json.load(json_file)
             return data
-    elif(sourceData == "PROFITABLE_MARKETS_BYREGIONS"):
+    elif(sourceData == "PROFITABLE_MARKETS_BYREGIONS" or sourceData == "PROFITABLE_MARKETS_BYREGIONS01"):
         with open('./data/buble.json') as json_file:
             data = json.load(json_file)
             return data

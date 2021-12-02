@@ -31,6 +31,7 @@
   },
   "items": [
     {
+      "id": "SYNC_CHART_1",
       "widget": "SYNC_CHART",
       "title": "Rentability",
       "sourceData": "QUALITY_RENTABILITY_DATA",
@@ -242,6 +243,7 @@
       }
     },
     {
+      "id": "PIE_GRAPH_MAP_1",
       "widget": "PIE_GRAPH_MAP",
       "title": "Pie graphs map",
       "sourceData": "QUALITY_RENTABILITY_BY_DATE",
@@ -682,6 +684,7 @@
       }
     },
     {
+      "id": "DONUT_3D_GRAPH_1",
       "widget": "DONUT_3D_GRAPH",
       "title": "Rentability",
       "sourceData": "RENTABILITY_COMPARATION",
@@ -739,6 +742,7 @@
       }
     },
     {
+      "id": "PIE_GRAPH_MAP_2",
       "widget": "PIE_GRAPH_MAP",
       "title": "Pie graphs map",
       "sourceData": "QUALITY_RENTABILITY_BY_DATE_2",
@@ -1113,6 +1117,7 @@
         },
         {
           "id": "MAP_GRAPH",
+          "map_type": "REGIONS",
           "style": {
             "color": [
               {
@@ -1157,9 +1162,10 @@
       }
     },
     {
+      "id": "BUBLE_GRAPH_1",
       "widget": "BUBLE_GRAPH",
       "title": "Mercados rentables",
-      "sourceData": "PROFITABLE_MARKETS_BYREGIONS",
+      "sourceData": "PROFITABLE_MARKETS_BYREGIONS01",
       "zIndex": 0,
       "itemsConfig": [
         {
@@ -1234,7 +1240,7 @@
       }
     },
     {
-      "widget": "HEATMAP_GRAPH",
+      "widget": "HEATMAP_GRAPH_1",
       "title": "Estimación de ingresos",
       "sourceData": "ESTIMATED_INCOME",
       "zIndex": 0,
@@ -1278,7 +1284,7 @@
       }
     },
     {
-      "widget": "BUBLE_GRAPH",
+      "widget": "BUBLE_GRAPH_2",
       "title": "Mercados con mas gasto por region",
       "sourceData": "PROFITABLE_MARKETS_BYREGIONS",
       "zIndex": 0,
@@ -1355,7 +1361,7 @@
       }
     },
     {
-      "widget": "GIS_MAP",
+      "widget": "GIS_MAP_1",
       "title": "Rentabilidad por mercado",
       "sourceData": "RENTABILITY_BY_MARKET",
       "zIndex": 0,
@@ -1378,7 +1384,7 @@
       }
     },
     {
-      "widget": "SYNC_CHART",
+      "widget": "SYNC_CHART_2",
       "title": "Ingresos Top 50 Mercados",
       "sourceData": "TOP_50_MARKETS",
       "zIndex": 0,
