@@ -1117,6 +1117,7 @@
         },
         {
           "id": "MAP_GRAPH",
+          "map_country": "MEXICO",
           "map_type": "REGIONS",
           "style": {
             "color": [
