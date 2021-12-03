@@ -640,6 +640,9 @@
         },
         {
           "id": "MAP_GRAPH",
+          "map_country": "MEXICO",
+          "map_type": "REGIONS",
+          "map_provider": "AT&T",
           "style": {
             "color": [
               {
@@ -1119,6 +1122,7 @@
           "id": "MAP_GRAPH",
           "map_country": "MEXICO",
           "map_type": "REGIONS",
+          "map_provider": "AT&T",
           "style": {
             "color": [
               {
