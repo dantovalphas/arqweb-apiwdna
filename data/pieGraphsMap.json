@@ -218,6 +218,123 @@
               "display": "95.1"
             }
           ]
+        },
+        {
+          "id": "RET_CS2",
+          "name": "Ret CS (%)",
+          "info": {
+            "drillDownId": "ddDateTablecqi_60"
+          },
+          "values": [
+            {
+              "value": 91.3,
+              "severity_value": 91.3,
+              "display": "92"
+            },
+            {
+              "value": 92.5,
+              "severity_value": 92.5,
+              "display": "88"
+            },
+            {
+              "value": 87.9,
+              "severity_value": 87.9,
+              "display": "90.8"
+            },
+            {
+              "value": 94.1,
+              "severity_value": 29874,
+              "display": "95.1"
+            },
+            {
+              "value": 96.7,
+              "severity_value": 18683,
+              "display": "95.9"
+            },
+            {
+              "value": 88,
+              "severity_value": 19698,
+              "display": "95.1"
+            }
+          ]
+        },
+        {
+          "id": "RET_CS3",
+          "name": "Ret CS (%)",
+          "info": {
+            "drillDownId": "ddDateTablecqi_60"
+          },
+          "values": [
+            {
+              "value": 91.3,
+              "severity_value": 91.3,
+              "display": "92"
+            },
+            {
+              "value": 92.5,
+              "severity_value": 92.5,
+              "display": "88"
+            },
+            {
+              "value": 87.9,
+              "severity_value": 87.9,
+              "display": "90.8"
+            },
+            {
+              "value": 94.1,
+              "severity_value": 29874,
+              "display": "95.1"
+            },
+            {
+              "value": 96.7,
+              "severity_value": 18683,
+              "display": "95.9"
+            },
+            {
+              "value": 88,
+              "severity_value": 19698,
+              "display": "95.1"
+            }
+          ]
+        },
+        {
+          "id": "RET_CS4",
+          "name": "Ret CS (%)",
+          "info": {
+            "drillDownId": "ddDateTablecqi_60"
+          },
+          "values": [
+            {
+              "value": 91.3,
+              "severity_value": 91.3,
+              "display": "92"
+            },
+            {
+              "value": 92.5,
+              "severity_value": 92.5,
+              "display": "88"
+            },
+            {
+              "value": 87.9,
+              "severity_value": 87.9,
+              "display": "90.8"
+            },
+            {
+              "value": 94.1,
+              "severity_value": 29874,
+              "display": "95.1"
+            },
+            {
+              "value": 96.7,
+              "severity_value": 18683,
+              "display": "95.9"
+            },
+            {
+              "value": 88,
+              "severity_value": 19698,
+              "display": "95.1"
+            }
+          ]
         }
       ]
     },
