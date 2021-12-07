@@ -94,8 +94,8 @@
       "type": "COLUMN_GRAPH",
       "info": { "drillDownId": "ddDateTablecqi_60" },
       "values": [
-        { "id": "SERIE_ID", "values": [199, 30, 44] },
-        { "id": "SERIE2_ID", "values": [2, 220, 33] }
+        { "id": "SERIE_ID", "values": [199, 30, 44, 199, 30, 44] },
+        { "id": "SERIE2_ID", "values": [2, 220, 33, 199, 30, 44] }
       ]
     },
     {
