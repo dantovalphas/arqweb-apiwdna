@@ -23,6 +23,7 @@
       "values": [
         {
           "value": 88.1,
+          "circle_color_value": "1",
           "main_value": "88.7",
           "display": "PASSED",
           "up_left": "ON AIR",
@@ -34,6 +35,7 @@
         },
         {
           "value": 87.7,
+          "circle_color_value": "-1",
           "main_value": "88.8%",
           "display": "NOT PASSED",
           "up_left": "ON AIR",
@@ -45,6 +47,7 @@
         },
         {
           "value": 88.7,
+          "circle_color_value": "1",
           "main_value": "86%",
           "display": "PASSED",
           "up_left": "ON AIR",
@@ -56,6 +59,7 @@
         },
         {
           "value": 88.7,
+          "circle_color_value": "1",
           "main_value": "86%",
           "display": "PASSED",
           "up_left": "ON AIR",
@@ -67,6 +71,7 @@
         },
         {
           "value": 88.7,
+          "circle_color_value": "-1",
           "main_value": "86%",
           "display": "PASSED",
           "up_left": "ON AIR",
@@ -78,6 +83,7 @@
         },
         {
           "value": 88.7,
+          "circle_color_value": "1",
           "main_value": "86%",
           "display": "PASSED",
           "up_left": "ON AIR",

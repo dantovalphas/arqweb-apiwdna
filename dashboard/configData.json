@@ -551,21 +551,17 @@
             "style": {
               "color": [
                 {
-                  "condition": "{value} >= 80",
+                  "condition": "{value} > 0",
                   "value": "#46FC02"
                 },
                 {
-                  "condition": "{value} > 80 && {value} < 50",
-                  "value": "#FD8600"
-                },
-                {
-                  "condition": "{value} <= 50",
+                  "condition": "{value} < 0",
                   "value": "#FD0000"
                 }
               ],
               "defaultColor": "#ffffff",
               "useSeverity": true,
-              "severityValue": "value"
+              "severityValue": "circle_color_value"
             }
           }
         },
