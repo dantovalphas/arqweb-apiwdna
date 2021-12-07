@@ -1,7 +1,14 @@
 {
   "description": "CQI NEW",
   "type": "pieGraphsMap",
-  "categories": ["2019-02-21", "2019-02-22", "2019-02-23"],
+  "categories": [
+    "2019-01",
+    "2019-02",
+    "2019-03",
+    "2019-04",
+    "2019-05",
+    "2019-06"
+  ],
   "values": [
     {
       "id": "KPI2#|",
@@ -35,6 +42,39 @@
           "down_left": 3279,
           "down_center": 2196,
           "down_right": 3654
+        },
+        {
+          "value": 88.7,
+          "main_value": "86%",
+          "display": "PASSED",
+          "up_left": "ON AIR",
+          "up_center": "ON",
+          "up_right": "OFF",
+          "down_left": 3193,
+          "down_center": 3600,
+          "down_right": 2217
+        },
+        {
+          "value": 88.7,
+          "main_value": "86%",
+          "display": "PASSED",
+          "up_left": "ON AIR",
+          "up_center": "ON",
+          "up_right": "OFF",
+          "down_left": 3193,
+          "down_center": 3600,
+          "down_right": 2217
+        },
+        {
+          "value": 88.7,
+          "main_value": "86%",
+          "display": "PASSED",
+          "up_left": "ON AIR",
+          "up_center": "ON",
+          "up_right": "OFF",
+          "down_left": 3193,
+          "down_center": 3600,
+          "down_right": 2217
         },
         {
           "value": 88.7,
@@ -83,6 +123,21 @@
               "value": 88,
               "severity_value": 19698,
               "display": "95.1"
+            },
+            {
+              "value": 94.1,
+              "severity_value": 29874,
+              "display": "95.1"
+            },
+            {
+              "value": 96.7,
+              "severity_value": 18683,
+              "display": "95.9"
+            },
+            {
+              "value": 88,
+              "severity_value": 19698,
+              "display": "95.1"
             }
           ]
         },
@@ -107,6 +162,21 @@
               "value": 90.1,
               "severity_value": 3000,
               "display": "98.1"
+            },
+            {
+              "value": 94.1,
+              "severity_value": 29874,
+              "display": "95.1"
+            },
+            {
+              "value": 96.7,
+              "severity_value": 18683,
+              "display": "95.9"
+            },
+            {
+              "value": 88,
+              "severity_value": 19698,
+              "display": "95.1"
             }
           ]
         },
@@ -131,6 +201,21 @@
               "value": 87.9,
               "severity_value": 87.9,
               "display": "90.8"
+            },
+            {
+              "value": 94.1,
+              "severity_value": 29874,
+              "display": "95.1"
+            },
+            {
+              "value": 96.7,
+              "severity_value": 18683,
+              "display": "95.9"
+            },
+            {
+              "value": 88,
+              "severity_value": 19698,
+              "display": "95.1"
             }
           ]
         }
