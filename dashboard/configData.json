@@ -1251,11 +1251,11 @@
         {
           "colorConfig": {
             "stops": [
-              [0.99, "#0fa709"],
-              [1, "#a7090f"]
+              [0.99, "#a7090f"],
+              [1, "#0fa709"]
             ],
-            "minColor": "#0fa709",
-            "maxColor": "#a7090f",
+            "minColor": "#a7090f",
+            "maxColor": "#0fa709",
             "minValue": "0",
             "maxValue": "1"
           },
